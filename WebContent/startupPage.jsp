@@ -1,0 +1,1 @@
+<%request.getRequestDispatcher("/localeAction.do").forward(request,response);%>

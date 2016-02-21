@@ -1,0 +1,1667 @@
+.bodyCenter {
+	left: 0px;
+	top: 0px;
+	background-position: left top;
+	margin: 0px;
+}
+
+td.bodyTable {
+	background-image: url(../../images/fa_IR/bg-form.jpg);
+	background-repeat: repeat-x;
+	background-position: right;
+}
+
+.eformsBorder {
+	border-bottom: 1px;
+	border-left: 1px;
+	border-right: 1px;
+	border-top: 1px;
+	border-bottom-color: #949494;
+	border-bottom-style: solid;
+	border-left-color: #949494;
+	border-left-style: solid;
+	border-right-color: #949494;
+	border-right-style: solid;
+	border-top-color: #949494;
+	border-top-style: solid;
+	direction: rtl;
+}
+
+.counter {
+	border-bottom: 2px;
+	border-left: 2px;
+	border-right: 2px;
+	border-top: 2px;
+	border-bottom-color: #e0e7cc;
+	border-bottom-style: solid;
+	border-left-color: #e0e7cc;
+	border-left-style: solid;
+	border-right-color: #e0e7cc;
+	border-right-style: solid;
+	border-top-color: #e0e7cc;
+	border-top-style: solid;
+	background-color: #F1F1F1;	
+	 font: tahoma;
+	 font-size: 12;
+	 font-weight:bold;
+	 color: red;
+
+}
+
+
+.defaultFontClass {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: normal;
+	direction: rtl;
+}
+
+
+.defaultFontSizeSmaller {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: normal;
+}
+
+table.globalTable {
+	width: 879px;
+	height: 100%;
+	vertical-align: top;
+	background-color: #ffffff;
+	font-family: Tahoma;
+	direction: rtl;
+}
+
+.customerMessagesTable {
+	border-color: #b7c74b;
+	background-color: #ffffff;
+	direction: rtl;
+}
+
+.bordarShadowLeft {
+	background-image: url(../../images/fa_IR/left_border_shadow.jpg);
+	background-repeat: repeat-y;
+	background-position: right;
+	direction: rtl;
+}
+
+.bordarShadowRight {
+	background-image: url(../../images/fa_IR/right_border_shadow.jpg);
+	background-repeat: repeat-y;
+	background-position: left;
+	direction: rtl;
+}
+
+.olGap {
+	padding-bottom: 5px;
+	direction: rtl;
+}
+
+td.contentCell {
+	width: 707;
+	vertical-align: top;
+	direction: rtl;
+}
+
+contentRow {
+	border-left-color: #166418;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-right-color: #166418;
+	border-right-style: solid;
+	border-right-width: 1px;
+	direction: rtl;
+}
+
+.loginBoldText {
+	color: #2a3561;
+	font-size: 10px;
+	font-family: Tahoma;
+	font-weight: bold;
+	text-align: left;
+	direction: rtl;
+}
+
+.errorText {
+	font-family: Tahoma;
+	font-size: 14px;
+	color: red;
+	direction: rtl;
+}
+
+.important {
+	color: red;
+	direction: rtl;
+}
+
+/* ashrafi 86/07.15 .buttons old {
+	font-family: Tahoma;
+	font-weight: bold;
+	font-size: 7pt;
+	height: 18px;
+	background-color: #385d0b;
+	color: #ffffff;
+	vertical-align: middle;
+	font-weight: bold;
+	font-family: Tahoma;
+	border-color: #ffffff;
+	background-color: #385d0b;
+	filter: progid: dximagetransform. microso #000000ft. shadow(color = #999999, direction = 125, strength = 2) direction:   rtl;
+}*/
+
+.buttons {
+	font-family:Tahoma;
+	font-weight: bold;
+	font-size:8pt;
+	height: 19px;
+	background-color: #2C69AA;
+	color: #ffffff;
+	vertical-align: middle;
+	font-weight: bold;
+	border-color: #ffffff;
+	background-color: #3C78B8;
+	filter: progid: dximagetransform. microso #000000ft. shadow(color = #999999, direction = 125, strength = 2) direction:   rtl;
+}
+
+/*ashrafi 86/07/15 .submitButtons {
+	font-family: Tahoma;
+	font-weight: bold;
+	font-size: 7pt;
+	width: 62px;
+	height: 18px;
+	background-color: #385d0b;
+	color: #ffffff;
+	vertical-align: middle;
+	font-weight: bold;
+	font-family: Tahoma;
+	border-color: #ffffff;
+	background-color: #385d0b;
+	filter: progid: dximagetransform. microsoft. shadow(color = #999999, direction = 125, strength = 2) direction:   rtl;
+}*/
+
+/*ashrafi added submitButtons1 for interestRate 86/07/15 */
+.submitButtons1 {
+	font-family: Tahoma;
+	font-weight: bold;
+	font-size: 8pt;
+	width: 80px;
+	height:20px;
+	background-color: #385d0b;
+	color: #ffffff;
+	vertical-align: middle;
+	font-weight: bold;
+	font-family: Tahoma;
+	border-color: #ffffff;
+	background-color: #385d0b;
+	filter: progid: dximagetransform. microsoft. shadow(color = #999999, direction = 125, strength = 2) direction:   rtl;
+}
+.submitButtons {
+	font-family: Tahoma;
+	font-weight: bold;
+	font-size: 8pt;
+	width: 62px;
+	height: 19px;
+	background-color: #3C78B8;
+	color: #ffffff;
+	vertical-align: middle;
+	font-weight: bold;
+	font-family: Tahoma;
+	border-color: #ffffff;
+	background-color: #3C78B8;
+	filter: progid: dximagetransform. microsoft. shadow(color = #999999, direction = 125, strength = 2) direction:   rtl;
+}
+
+/* added by Hashemi 880517 */
+.InsertButtons {
+	font-family: Tahoma;
+	font-weight: bold;
+	font-size: 8pt;
+	width: 120px;
+	height: 22px;
+	background-color: #3C78B8;
+	color: #ffffff;
+	vertical-align: middle;
+	font-weight: bold;
+	font-family: Tahoma;
+	border-color: #ffffff;
+	background-color: #3C78B8;
+	filter: progid: dximagetransform. microsoft. shadow(color = #999999, direction = 125, strength = 2) direction:   rtl;
+}
+td.footer {
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #166418;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	direction: rtl;
+}
+
+td.footerCopyRight {
+	font-family: Tahoma;
+	font-size:10px;
+	color: #3A3939;
+	direction: rtl
+}
+
+.footerTopLineCell {
+	border-top-width: 0px;
+	border-top-style: solid;
+	border-top-color: #166418;
+	direction: rtl;
+}
+
+.footerLinks {
+	font-family: Tahoma;
+	font-size: 9px;
+	color: #ffffff;
+	direction: rtl;
+}
+
+.HeaderLogout {
+	font-family: Tahoma;
+	font-size: 9px;
+	font-weight: bold;
+	color: #ffffff;
+	text-decoration: none;
+	direction: rtl;
+  }
+
+.BillPaymentLabel {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	text-align: center;	
+ }
+
+.noUnderLine {
+	text-decoration: none;
+	direction: rtl;
+}
+
+.passwordControls {
+	font-size: 12px;
+	font-family: Tahoma;
+	direction: rtl;
+}
+
+.registrationDetailText {
+	color: #9837d0;
+	font-weight: bold;
+	font-size: 12px;
+	font-family: Tahoma;
+	text-align: left;
+	direction: rtl;
+}
+
+.loginInputControls {
+	font-size: 12px;
+	width: 110px;
+	direction: rtl;
+}
+
+.registerPinButtons {
+	font-family: Tahoma;
+	font-weight: bold;
+	font-size: 7pt;
+	width: 62px;
+	height: 18px;
+	background-color: #385d0b;
+	color: #ffffff;
+	vertical-align: middle;
+	font-weight: bold;
+	font-family: Tahoma;
+	border-color: #ffffff;
+	background-color: #385d0b;
+	filter: progid: dximagetransform. microsoft. shadow(color = #999999, direction = 125, strength = 2) direction:   rtl;
+}
+
+.registrationButtons {
+	font-family: Tahoma;
+	font-weight: bold;
+	font-size: 7pt;
+	width: 62px;
+	height: 18px;
+	background-color: #385d0b;
+	color: #ffffff;
+	vertical-align: middle;
+	font-weight: bold;
+	font-family: Tahoma;
+	border-color: #ffffff;
+	background-color: #385d0b;
+	filter: progid: dximagetransform. microsoft. shadow(color = #999999, direction = 125, strength = 2) direction:   rtl;
+}
+
+.loginButtons {
+	font-family: Tahoma;
+	font-weight: bold;
+	font-size: 8pt;
+	width: 68px;
+	height: 20px;
+	background-color: #3C78B8;
+	color: #ffffff;
+	vertical-align: middle;
+	font-weight: bold;
+	font-family: Tahoma;
+	border-color: #ffffff;
+	background-color: #3C78B8;
+	filter: progid: dximagetransform. microsoft. shadow(color = #999999, direction = 125, strength = 2) direction:   rtl;
+}
+
+.headerText {
+	color: #551176;
+	font-weight: bold;
+	font-size: 10px;
+	font-family: Tahoma;
+	direction: rtl;
+}
+
+
+/*ashrafi 86.07/15 .personalizehButtons old{
+	font-family: Tahoma;
+	font-weight: bold;
+	font-size: 7pt;
+	width: 82px;
+	height: 18px;
+	background-color: #385d0b;
+	color: #ffffff;
+	vertical-align: middle;
+	font-weight: bold;
+	font-family: Tahoma;
+	border-color: #ffffff;
+	background-color: #385d0b;
+	filter: progid: dximagetransform. microsoft. shadow(color = #999999, direction = 125, strength = 2) direction:   rtl;
+}*/
+.personalizehButtons {
+	font-family: Tahoma;
+	font-weight: bold;
+	font-size: 8pt;
+	width: 82px;
+	height: 19px;
+	background-color: #385d0b;
+	color: #ffffff;
+	vertical-align: middle;
+	font-weight: bold;
+	font-family: Tahoma;
+	border-color: #ffffff;
+	background-color: #385d0b;
+	filter: progid: dximagetransform. microsoft. shadow(color = #999999, direction = 125, strength = 2) direction:   rtl;
+}
+
+.adminWelcomeText {
+	font-family: Tahoma;
+	font-size: 11px;
+	text-align: left;
+	direction: rtl;
+}
+
+.personalizeInput {
+	font-family: Tahoma;
+	font-size: 11px;
+	text-align: left;
+	width: 110px;
+	direction: rtl;
+}
+
+.printViewButton {
+	font-family: Tahoma;
+	font-weight: bold;
+	font-size: 7pt;
+	width: 62px;
+	height: 18px;
+	background-color: #385d0b;
+	color: #ffffff;
+	vertical-align: middle;
+	font-weight: bold;
+	font-family: Tahoma;
+	border-color: #ffffff;
+	background-color: #385d0b;
+	filter: progid: dximagetransform. microsoft. shadow(color = #999999, direction = 125, strength = 2) direction:   rtl;
+}
+
+/*ashrafi 86/07/15 .accSearchButtons old{
+	font-family: Tahoma;
+	font-weight: bold;
+	font-size: 7pt;
+	width: 62px;
+	height: 18px;
+	background-color: #385d0b;
+	color: #ffffff;
+	vertical-align: middle;
+	font-weight: bold;
+	font-family: Tahoma;
+	border-color: #ffffff;
+	background-color: #385d0b;
+	filter: progid: dximagetransform. microsoft. shadow(color = #999999, direction = 125, strength = 2) direction:   rtl;
+}*/
+.accSearchButtons {
+	font-family: Tahoma;
+	font-weight: bold;
+	font-size: 8pt;
+	width: 62px;
+	height: 19px;
+	background-color: #385d0b;
+	color: #ffffff;
+	vertical-align: middle;
+	font-weight: bold;
+	font-family: Tahoma;
+	border-color: #ffffff;
+	background-color: #385d0b;
+	filter: progid: dximagetransform. microsoft. shadow(color = #999999, direction = 125, strength = 2) direction:   rtl;
+}
+
+.export {
+	font-family: Tahoma;
+	font-size: 11px;
+	vertical-align: bottom;
+	padding: 2px 4px 2px 4px;
+	direction: rtl;
+}
+
+table.errorTable {
+	font-family: Tahoma;
+	font-size: 11px;
+	text-align: right;
+	color: red;
+	width: 392px;
+	height: 100%;
+	background-color: #f5f5f5;
+	direction: rtl;
+}
+
+table.noAccountMsgTable {
+	font-family: Tahoma;
+	font-size: 11px;
+	text-align: left;
+	color: red;
+	padding: 0px;
+	width: 392px;
+	height: 100px;
+	direction: rtl;
+}
+
+td.errorTopCell {
+	background-image: url(../../images/fa_IR/errorbox-headcurve.gif);
+	height: 7px;
+	background-repeat: no-repeat;
+	vertical-align: bottom;
+	background-color: #f5f5f5;
+	direction: rtl;
+}
+
+td.errorBottomCell {
+	background-image: url(../../images/fa_IR/errorbox-buttomcurve.gif);
+	height: 8px;
+	background-repeat: no-repeat;
+	vertical-align: top;
+	background-color: #f5f5f5;
+	direction: rtl;
+}
+
+td.errorMidCell {
+	background-image: url(../../images/fa_IR/errorbox-mid.gif);
+	background-repeat: repeat-y;
+	width: 392px;
+	padding: 5px;
+	vertical-align: top;
+	background-color: #f5f5f5;
+	direction: rtl;
+	text-align: rigth;
+}
+
+.errorsIcon {
+	background-position: bottom;
+	background-image: url(../../images/fa_IR/erroricon.gif);
+	background-repeat: no-repeat;
+	width: 35px;
+	height: 33px;
+	direction: rtl;
+}
+
+table.messageTable {
+	font-family: Tahoma;
+	font-size: 11px;
+	text-align: center;
+	color: green;
+	padding: 5px;
+	width: 375px;
+	background-color: #f5f5f5;
+	direction: rtl;
+}
+
+td.messageCell {
+	background-position: center;
+	background-image: url(../../images/fa_IR/done.jpg);
+	background-repeat: no-repeat;
+	width: 45px;
+	height: 45px;
+	padding-left: 5px;
+	background-color: #f5f5f5;
+	direction: rtl;
+}
+
+.pagingFirstImage {
+	background-position: center;
+	background-image: url(../../images/fa_IR/first.gif);
+	background-repeat: no-repeat;
+	width: 30px;
+	height: 10px;
+	cursor: pointer;
+	direction: rtl;
+}
+
+.pagingPrevImage {
+	background-position: center;
+	background-image: url(../../images/fa_IR/prev.gif);
+	background-repeat: no-repeat;
+	width: 30px;
+	height: 10px;
+	border: 0pt;
+	cursor: pointer;
+	direction: rtl;
+}
+
+.pagingNextImage {
+	background-position: center;
+	background-image: url(../../images/fa_IR/next.gif);
+	background-repeat: no-repeat;
+	width: 30px;
+	height: 10px;
+	border: 0pt;
+	cursor: pointer;
+	direction: rtl;
+}
+
+.pagingLastImage {
+	background-position: center;
+	background-image: url(../../images/fa_IR/last.gif);
+	background-repeat: no-repeat;
+	width: 30px;
+	height: 15px;
+	cursor: pointer;
+	direction: rtl;
+}
+
+.acountSearch {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: normal;
+	width: 100%;
+	direction: rtl;
+}
+
+.accountSearchHeading {
+	font-family: Tahoma, arial, helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #0c477f;
+	direction: rtl;
+}
+
+.addComplaintInputControls {
+	font-family: Tahoma;
+	font-size: 11px;
+	text-align: left;
+	width: 110px;
+	direction: rtl;
+}
+
+p.center {
+	text-align: center;
+	direction: rtl;
+}
+
+p.left {
+	text-align: left;
+	direction: rtl;
+}
+
+p.right {
+	text-align: right;
+	direction: rtl;
+}
+
+/*ashrafi 86/07/14 td.gridAdjacentHeadingOld {
+	font-family: Tahoma;
+	font-weight: bold;
+	text-align: right;
+	font-size: 14px;
+	color: #3d5a84;
+	direction: rtl;
+}*/
+td.gridAdjacentHeading {
+	font-family: tahoma;
+	font-weight: bold;
+	text-align: right;
+	font-size: 12px;
+	color: #0D2D40;
+	direction: rtl;
+}
+
+.gridFooter {
+	font-weight: bold;
+	font-family: Tahoma, arial, helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	border-top-width: 1px;
+	border-top-style: double;
+	border-top-color: #999999;
+	border-right-color: #999999;
+	border-bottom-color: #999999;
+	border-left-color: #999999;
+	background-color: #98a8b6;
+	direction: rtl;
+}
+
+.navigationText {
+	font-family: Tahoma;
+	font-size: 10px;
+	text-align: center;
+	font-weight: bold;
+	direction: rtl;
+}
+
+.wellcome {
+	font-family: Tahoma, arial, helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	direction: rtl;
+}
+
+/*ashrafi 86/07/14 :.wellcomeHeadingOld {
+	font-family:Tahoma ;
+	font-size: 14px;
+	font-weight: bold;
+	color: #5f7314;
+	text-align: left;
+	text-indent: 20px;
+	direction: rtl;
+}*/
+
+.wellcomeHeading {
+	font-family: tahoma;
+	font-size: 12px;
+	font-weight: bold;
+	color: #5f7314;
+	text-align: center;
+	text-indent: 20px;
+	direction: rtl;
+}
+
+
+/* ashrafi 86/07/14 : .wellcomeNameHeadingOld  {
+	font-family: Tahoma;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+	text-align: left;
+	text-indent: 20px;
+	direction: rtl;
+} */
+
+.wellcomeNameHeading {
+	ont-family: tahoma;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	text-align: left;
+	text-indent: 20px;
+	direction: rtl;
+}
+
+/*ashrafi 86/07/14:.wellcomeLoginInfoOld {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #585f6f;
+	font-weight: normal;
+	text-align: left;
+	text-indent: 23px;
+	direction: rtl;
+}*/
+
+.wellcomeLoginInfo {
+	font-family: tahoma;
+	font-size: 11px;
+	font-weight: bold;	
+	color:#000066;
+	text-align: left;
+	text-indent: 23px;
+	direction: rtl;
+}
+.wellcomeDisclaimer {
+	font-family: Tahoma, arial, helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #0f0f0f;
+	direction: rtl;
+}
+
+.wellcomeDisclaimerText {
+	font-family: Tahoma, arial, helvetica, sans-serif;
+	font-size: 10px;
+	color: #585f66;
+	direction: rtl;
+}
+
+.wellcomeBarText {
+	font-family: Tahoma, arial, helvetica, sans-serif;
+	font-size: 11px;
+	background-color: #642c84;
+	background-repeat: no-repeat;
+	font-weight: bold;
+	background-position: left;
+	text-indent: 15pt;
+	height: 20px;
+	color: #ffffff;
+	direction: rtl;
+}
+
+/*ashrafi 86/07/14:old td.purpleBarText {
+	font-family: Tahoma;
+	font-size: 18px;
+	font-weight: normal;
+	text-indent: 10px;
+	font-stretch: wider;
+	height: 30px;
+	color: #166418;
+	direction: rtl;
+}*/
+
+td.purpleBarText {
+	font-family: tahoma;
+	font-size: 14px;
+	font-weight: bold;
+	text-indent: 12px;
+	font-stretch:wider;
+	height: 30px;
+	color: #080569;
+	direction: rtl;
+}
+
+
+/*ashrafi 86/07/15 .purpleBarSubText Old {
+	font-family: trebuchet ms;
+	font-size: 12px;
+	font-weight: bold;
+	font-stretch: wider;
+	text-indent: 5px;
+	height: 30px;
+	color: #166418;
+	direction: rtl;
+}*/
+.purpleBarSubText {
+	font-family: tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	font-stretch: wider;
+	text-indent: 5px;
+	height: 30px;
+	color: #080569;
+	direction: rtl;
+}
+.mainLeftBorder {
+	border-right: solid 1px;
+	border-left: none;
+	border-top: none;
+	border-bottom: none;
+	direction: rtl;
+}
+
+.yellowBarText {
+	font-family: Tahoma, arial, helvetica, sans-serif;
+	font-size: 11px;
+	background-color: #f1b02e;
+	background-repeat: no-repeat;
+	font-weight: bold;
+	background-position: left;
+	text-indent: 15pt;
+	height: 20px;
+	color: #ffffff;
+	direction: rtl;
+}
+
+.alertBarText {
+	font-family: Tahoma;
+	font-size: 12px;
+	font-weight: bold;
+	height: 20px;
+	color: #71a000;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	text-indent: 5px;
+	direction: rtl;
+}
+/*ashrafi 86/07/15 .wellcomeCustomerMessages old{
+	font-family: Tahoma, arial, helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #c00000;
+	padding-bottom: 5px;
+	direction: rtl;
+}*/
+
+.wellcomeCustomerMessages {
+	font-family: Tahoma, arial, helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #c00000;
+	padding-bottom: 5px;
+	direction: rtl;
+}
+
+
+.CustomerMessageInAlert {
+	font-family: Tahoma, arial, helvetica, sans-serif;
+	font-size: 9pt;
+	font-weight: normal;
+	font-style: normal;
+	width: 100%;
+	direction: rtl;
+}
+
+/*ashrafi 86/07/14:old.purpleCustomerMessages {
+	font-family: Tahoma, arial, helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	width: 100%;
+	padding-left: 11px;
+	padding-bottom: 10px;
+	letter-spacing: 0.4pt;
+	direction: rtl;
+}*/
+
+
+.purpleCustomerMessages {
+	font-family: Tahoma;	
+	font-size: 13px;
+	font-weight: normal;
+	width: 100%;
+	font-stretch: wider;
+	padding-left: 11px;
+	padding-bottom: 10px;	
+	text-align: justify;
+	direction: rtl;
+}
+/*added by hashemi 88/07/13*/
+.purpleMessages {
+	font-family: Tahoma;	
+	font-size: 13px;
+	font-weight: normal;
+	font-stretch: wider;
+	padding-left: 11px;
+	padding-bottom: 10px;	
+	text-align: justify;
+	
+}
+
+
+.bottomBorder {
+	border-bottom: #3d5a84 1px solid;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	direction: rtl;
+}
+
+table.eforms {
+	background-color: #F5F5F5;
+	direction: rtl;
+}
+
+ /*ashrafi 86/08/22.inputControls old {
+ .inputControls {
+	font-family: Tahoma;
+	font-size: 10px;
+	text-align: left;
+	width: 110px;
+	color: #166418;
+	border: 1px solid #166418;
+	direction: rtl;
+}*/
+
+.inputControls {
+	font-family: Tahoma;
+	font-size: 12px;
+	
+	
+}
+
+.inputControlsForPan {
+	font-family: Tahoma;
+	font-size: 12px;
+	width: 140px;
+	
+}
+
+/*added by hashemi 880521*/
+.lessWidthInputControls {
+	font-family: Tahoma;
+	font-size: 12px;
+	text-align: left;
+	color: #0A0756;
+	border: 1px solid #0A0756;
+	direction: rtl;
+}
+
+
+/*ashrafi 86/07/15.inputControlsNoWidth old {
+	font-family: Tahoma;
+	font-size: 10px;
+	text-align: left;
+	color: #166418;
+	border: 1px solid #166418;
+	direction: rtl;
+}*/
+
+/*added by hashemi 88/06/17 */
+.inputControlsWithFixWith {
+	font-family: Tahoma;
+	font-size: 11px;
+	text-align: left;
+	width: 160px;
+	color: #0A0756;
+	border: 1px solid #0A0756;
+}
+/*end by hashemi 88/06/17 */
+.inputControlsNoWidth {
+	font-family: Tahoma;
+	font-size: 11px;
+	text-align: right;
+	color: #0A0756;
+	border: 1px solid #0A0756;
+	direction: rtl;
+}
+/*added by hashemi 88/04/09*/
+.inputControlsNoborder {
+	font-family: Tahoma;
+	font-size: 11px;
+	text-align: right;
+	direction: rtl;
+}
+
+.inputControlsMoreWidth {
+	font-family: Tahoma;
+	font-size: 11px;
+	text-align: left;
+	width: 500px;
+	color: #166418;
+	border: 1px solid #166418;
+	direction: rtl;
+}
+
+.inputControlsDropdown {
+	font-family: Tahoma;
+	font-size: 11px;
+	text-align: left;
+	width: 200px;
+	color: #166418;
+	border: 1px solid #166418;
+	direction: rtl;
+}
+
+.inputControlsWithOutLength {
+	font-family: Tahoma;
+	font-size: 11px;
+	text-align: left;
+	border: 1px solid #166418;
+	color: #166418;
+	direction: rtl;
+}
+
+.disabledInputControls {
+	font-family: Tahoma;
+	font-size: 11px;
+	text-align: left;
+	background-color: #999999;
+	direction: rtl;
+}
+/* ashrafi accountsInputControls 86/08/23
+.accountsInputControls {
+	font-family: Tahoma;
+	font-size: 11px;
+	text-align: left;
+	color: #166418;
+	width: 110px;
+	direction: rtl;
+}*/
+.accountsInputControls {
+	font-family: Tahoma;
+	font-size: 11px;
+	text-align: left;
+	color: #0A0756;
+	width: 140px;
+	direction: rtl;
+}
+.topInputControls {
+	font-family: Tahoma;
+	font-size: 11px;
+	text-align: left;
+	width: 110px;
+	direction: rtl;
+}
+
+.InputListControl {
+	font-family: Tahoma;
+	font-size: 11px;
+	text-align: left;
+	direction: rtl;
+}
+
+.alertInputControls {
+	font-family: Tahoma;
+	font-size: 12px;
+	text-align: left;
+	width: 110px;
+	direction: rtl;
+}
+
+.WelcomeTableBorder {
+	width: 100%;
+	border-bottom: none;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	background: transparent;
+	letter-spacing: 0px;
+	direction: rtl;
+}
+
+.welcomeImage {
+	direction: rtl;
+}
+
+.purpleTableBorder {
+	width: 100%;
+	border: 1px solid #642c84;
+	direction: rtl;
+}
+.printHeading {
+	font-family: Tahoma, arial, helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	direction: rtl;
+}
+
+  
+.topBoxHeading {
+	font-family: Tahoma, arial, helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #598b2c;
+	text-align: center;
+	direction: rtl;
+}
+
+.HeaderBG {
+	background-image: url(../../images/fa_IR/header.gif);
+	background-repeat: no-repeat;
+	direction: rtl;
+}
+
+td.HeaderUserNameLabel {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	color: #3f3f3f;
+	text-align: right;
+}
+/*ashrafi 86/07/15.HeaderUserName {
+	font-family: Tahoma
+	background-image: url(../../images/fa_IR/Footer_1.jpg);
+	font-size: 11px;
+	font-weight: normal;
+	color: #000000;
+	direction: rtl;
+}*/
+
+.HeaderUserName {
+	font-family: Tahoma;	
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	direction: rtl;
+	text-align:right;
+}
+
+/*ashrafi 86/07/15 .HeaderLabels old{
+	font-family: Tahoma, arial, helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #3f3f3f;
+	direction: rtl;
+}*/
+.HeaderLabels {
+	font-family: Tahoma, arial, helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #3f3f3f;
+	text-align: left;
+}
+th.sortable a {
+	background-image: url(../../images/fa_IR/arrow_off.png);
+	background-repeat: no-repeat;
+	color: #faf3e1;
+	direction: rtl;
+}
+
+th.order1 a {
+	background-image: url(../../images/fa_IR/arrow_down.png);
+	background-repeat: no-repeat;
+	color: #faf3e1;
+	direction: rtl;
+}
+
+th.order2 a {
+	background-image: url(../../images/fa_IR/arrow_up.png);
+	background-repeat: no-repeat;
+	color: #faf3e1;
+	direction: rtl;
+}
+
+th.sorted a,th.sortable a {
+	background-position: right;
+	display: block;
+	width: 100%;
+	color: #faf3e1;
+	direction: rtl;
+}
+
+.gridPrintLine {
+	background-color: #faf3e1;
+	color: black;
+	border-right-width: 1px;
+	border-right-style: double;
+	border-right-color: #000000;
+	border-bottom-width: 1px;
+	border-bottom-style: double;
+	border-bottom-color: #000000;
+	direction: rtl;
+}
+
+.gridOddLine {
+	background-color: #ffffff;
+	text-indent: 1pt;
+	direction: rtl;
+}
+
+.gridEvenLine {
+	background-color: #F3F3F3;
+	text-indent: 1pt;
+	direction: rtl;
+}
+
+.gridHeader {
+	font-family: Tahoma;
+	font-size: 10px;
+	font-weight: bold;
+	color: #000000;
+	background-color: #98a8b6;
+	height: 20px;
+	padding: 4px 4px 4px 4px;
+	vertical-align: top;
+	text-align: right;
+	direction: rtl;
+	
+	
+}
+
+.listHeader {
+	font-family: Tahoma;
+	font-size: 10px;
+	font-weight: bold;
+	color: #000000;
+	background-color: #98a8b6;
+	height: 20px;
+	padding: 4px 4px 4px 4px;
+	vertical-align: top;
+	text-align: right;
+	direction: rtl;
+	width: 98%;
+	
+}
+
+.gridHeaderCenter {
+	font-family: Tahoma;
+	font-size: 10px;
+	font-weight: bold;
+	color: #000000;
+	background-color: #98A8b6;
+	height: 20px;
+	padding: 4px 4px 4px 4px;
+	vertical-align: top;
+	text-align:center;
+}
+
+.grid {
+	width: 100%;
+	font-family: "Tahoma";
+	text-align: right;
+	font-size: 11px;
+	color: #000000;
+	border-top: 1px solid gray;;
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+	border-bottom: 1px solid gray;
+	direction: rtl;
+	position:relative;
+}
+.Listbox{
+	width: 98%;
+	font-family: "Tahoma";
+	text-align: right;
+	font-size: 11px;
+	color: #454545;
+	border-top: 1px solid gray;;
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+	border-bottom: 1px solid gray;
+	direction: rtl;
+	position:relative;
+	background-color: #F3F3F3;
+}
+
+
+.gridNumber {
+	font-family: "Tahoma";
+	text-align: right;
+	font-size: 11px;
+	color: #545454;
+	border: none;
+	padding-right: 3px;
+	direction: rtl;
+}
+
+.gridDate {
+	font-family: "Tahoma";
+	text-align: center;
+	font-size: 11px;
+	color: #545454;
+	border: none;
+	direction: rtl;
+}
+
+.gridPDF {
+	font-family: "Tahoma";
+	text-align: center;
+	font-size: 11px;
+	color: #545454;
+	border: none;
+	direction: rtl;
+}
+
+.gridPrinter {
+	width: 100%;
+	font-family: "Tahoma, trebuchet ms";
+	text-align: center;
+	font-size: 12px;
+	background: #999999;
+	direction: rtl;
+}
+
+span.pagebanner {
+	border: 0px solid #999;
+	font-family: "Tahoma, trebuchet ms";
+	text-align: center;
+	padding: 0px 0px 0px 0px;
+	width: 100%;
+	margin-top: 0px;
+	display: block;
+	border-bottom: none;
+	font-size: 10pt;
+	direction: rtl;
+}
+
+span.pagebannerWithoutPaging {
+	border: 0px solid #999;
+	font-family: "Tahoma, trebuchet ms";
+	text-align: center;
+	padding: 2px 4px 2px 4px;
+	width: 100%;
+	margin-top: 10px;
+	display: block;
+	font-size: 10pt;
+	direction: rtl;
+}
+
+span.dummyspan {
+	border: 1px solid #999;
+	padding: 2px 4px 2px 4px;
+	width: 100%;
+	margin-top: 10px;
+	display: block;
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+	direction: rtl;
+}
+
+span.pagelinks {
+	border: 0px solid #999;
+	font-family: Tahoma;
+	text-align: center;
+	padding: 2px 4px 2px 4px;
+	width: 100%;
+	display: block;
+	border-top: none;
+	margin-bottom: -5px;
+	font-size: 10pt;
+	direction: rtl;
+}
+
+.excel {
+	background-image: url(../../images/fa_IR/excel.gif);
+	background-repeat: no-repeat;
+	height: 24px;
+	direction: rtl;
+}
+
+.pdf {
+	background-image: url(../../images/fa_IR/pdf.jpg);
+	background-repeat: no-repeat;
+	height: 24px;
+	direction: rtl;
+}
+
+.printFriendly {
+	background-image: url(../../images/fa_IR/print.gif);
+	background-repeat: no-repeat;
+	height: 24px;
+	direction: rtl;
+}
+
+div.exportlinks {
+	font-family: Tahoma;
+	font-size: 12px;
+	border: 0px solid #999;
+	text-align: right;
+	padding: 2px 4px 2px 4px;
+	margin: 5px 0 10px 0;
+	width: 100%;
+	border-top: none;
+	direction: rtl;
+}
+
+span.export {
+	padding: 0 4px 1px 20px;
+	display: inline;
+	display: inline-block;
+	cursor: pointer;
+	direction: rtl;
+}
+
+/* ashrafi 86/07/15: .captionBoldOld {
+	color: #186021;  114502 0C3301
+	font-weight: bold;
+	font-size: 10px;
+	direction: rtl;
+}*/
+
+.captionBold {
+	color: #0A0756;
+	font-weight: bold;
+	font-family: tahoma;
+	font-size: 11px;
+	direction: rtl;
+	text-align:left;
+	letter-spacing:normal;
+	
+}
+
+.caption{
+	color: #0A0756;
+	font-weight: bold;
+	font-family: tahoma;
+	font-size: 11px;
+	direction: rtl;
+	text-align:right;
+	letter-spacing:normal;
+	
+}
+.captionBoldSizeSmaller {
+	color: #0A0756;
+	font-weight: bold;
+	font-family: tahoma;
+	font-size: 10px;
+	direction: rtl;
+}
+.captionBoldWithBigFontSize {
+	color: #0A0756;
+	font-weight: bold;
+	font-family: tahoma;
+	font-size: 11px;
+	direction: rtl;
+}
+.disableText {
+	font-family: Tahoma;
+	color: #fcfcfc;
+	direction: rtl;
+}
+
+.adminWelcomeButtons {
+	background-image: url(../../images/fa_IR/tableheaderpattern.jpg);
+	font-family: Tahoma;
+	font-weight: bold;
+	font-size: 7pt;
+	width: 62px;
+	height: 18px;
+	background-color: #385d0b;
+	color: #ffffff;
+	vertical-align: middle;
+	font-weight: bold;
+	font-family: Tahoma;
+	border-color: #000000;
+	background-color: #385d0b;
+	filter: progid: dximagetransform. microsoft. shadow(color = #999999, direction = 125, strength = 2) direction:   rtl;
+}
+
+.alertSaveButton {
+	background-image: url(../../images/fa_IR/tableheaderpattern.jpg);
+	background-repeat: no-repeat;
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #ffffff;
+	width: 80px;
+	text-align: center;
+	height: 20px;
+	background-color: #642c84;
+	direction: rtl;
+}
+
+.onlyAlertBorder {
+	border: solid black 0px;
+	direction: rtl;
+}
+
+.innerBorder {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: normal;
+	direction: rtl;
+}
+
+.gridBannerTable {
+	font-family: "Tahoma";
+	font-size: 9px;
+	color: #545454;
+	border-top: none;
+	border-left: 1px dotted gray;
+	border-right: 1px dotted gray;
+	border-bottom: 1px dotted gray;
+	direction: rtl;
+}
+
+.gridBannerTableWithoutBorder {
+	font-family: "Tahoma";
+	font-size: 9px;
+	color: #545454;
+	border-top: none;
+	direction: rtl;
+}
+.printerFriendlyGrid {
+	width: 100%;
+	font-family: Tahoma;
+	text-align: left;
+	font-size: 12px;
+	padding: 1px;
+	border: outset;
+	border-width: thin;
+	direction: rtl;
+}
+
+.printerFriendlyTable {
+	width: 100%;
+	font-family: Tahoma;
+	text-align: left;
+	font-size: 10px;
+	padding: 0px;
+	spacing: 0px border:   0;
+	border-width: thin;
+	direction: rtl;
+}
+
+.printerFriendlyCell {
+	border: outset;
+	border-width: 1pt;
+	direction: rtl;
+}
+
+.printerFriendlyNumberic {
+	text-align: right;
+	direction: rtl;
+}
+
+.gridBalance {
+	background-color: #3d5a84;
+	padding: 5px;
+	text-align: right;
+	color: #ffffff;
+	direction: rtl;
+}
+
+.verticalBarColor {
+	background-color: #551176;
+	direction: rtl;
+}
+
+.feedBackThankyouText {
+	color: #581473;
+	font-weight: bold;
+	font-size: 12px;
+	font-family: Tahoma;
+	direction: rtl;
+}
+
+.rejectedRequestCell {
+	background-color: #ffb0bd;
+	direction: rtl;
+}
+
+.stretchedHeader {
+	background-color: #ffffff;
+	width: 100%;
+	border-bottom-color: #551176;
+	border-bottom-width: 1px;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	direction: rtl;
+}
+
+.stretchedHeaderLeft {
+	background-image: url(../../images/fa_IR/headerleft.jpg);
+	background-position: left;
+	background-repeat: no-repeat;
+	height: 56px;
+	direction: rtl;
+}
+
+.stretchedHeaderRight {
+	background-image: url(../../images/fa_IR/headerright.jpg);
+	background-position: right;
+	background-repeat: no-repeat;
+	direction: rtl;
+}
+
+.statementDate {
+	font-size: 10px;
+	direction: rtl;
+}
+
+.linkStyleInErrorMsg {
+	color: #6699ff;
+	direction: rtl;
+}
+
+.welcomeImage {
+	background-image: url("../../images/fa_IR/Computer-Image.jpg");
+}
+
+td.align_la_center_fa_right {
+	text-align: right;
+}
+.direction{
+	direction: rtl;
+	}
+
+.fundsTransferUseToken{
+		font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	width: 100%;
+	padding-left: 11px;
+	padding-bottom: 10px;
+	letter-spacing:0px;
+	color : green;
+	}	
+	
+	.docHeading {
+	font-family: tahoma;
+	font-size: 13px;
+	font-weight: bold;
+	text-indent: 20px;
+	font-stretch: wider;
+	height: 30px;
+	color:  #000000;
+	direction: rtl;
+
+}
+
+.stretchTextInLine{
+    text-align: justify;
+    font-stretch: wider;
+    font-size: 12px;
+    font-family: Tahoma;
+    color: #000000;
+}
+
+
+.lessWidthInputControlsForEnglish {
+	font-family: Tahoma;
+	font-size: 12px;
+	text-align: left;
+	color: #0A0756;
+	border: 1px solid #0A0756;
+	direction: ltr;
+}
+.complaintListLables{
+	
+	text-align: left;
+}
+
+.highlight{
+background-color: #e1e8cc;
+height: 20px;
+}
+.newHighlight{
+	background-color: yellow;
+	height: 20px;
+	}
+.oldHighlight{
+	background-color: #BDD9C2;
+	height: 20px;
+	}
+.newAllowedHighlight{
+	background-color: #FCA289;
+	height: 20px;
+	}

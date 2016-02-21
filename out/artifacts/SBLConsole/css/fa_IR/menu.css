@@ -1,0 +1,44 @@
+.mainItem {
+	background-image: url(../../images/fa_IR/bg2.jpg);
+	background-position: right;
+	color: #2A3561;
+	font-size: 13px;
+	font-family: Tahoma;
+	font-weight: bold;
+	text-align: right;
+	cursor: pointer;
+	position: static;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 5px;
+	padding-right: 10px;
+	border-bottom: 1px solid white;	
+	direction: rtl;
+	width: 180px;
+}
+
+.subItem {
+	color: #2A3561;
+	font-size: 12px;
+	font-family: Tahoma;
+	font-weight: bold;
+	text-align: right;
+	cursor: pointer;
+	position: relative;	
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 8px;
+	padding-right: 8px;
+	direction: rtl;
+	
+}
+
+.subItemLink {
+	color: #2A3561;
+	text-decoration: none;
+}
+
+.subItemLink:HOVER {
+	color: #166418;
+	text-decoration: none;
+}

@@ -1,0 +1,49 @@
+.mainItem {
+	background-image: url(../images/en_US/bg2.jpg);
+	color: #2A3561;
+	font-size: 10px;
+	font-family: Verdana;
+	font-weight: bold;
+	text-align: left;
+	cursor: pointer;
+	position: relative;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-bottom: 1px solid white;
+}
+
+.subItem {
+	color: #2A3561;
+	font-size: 10px;
+	font-family: Tahoma;
+	font-weight: normal;
+	text-align: left;
+	cursor: pointer;
+	position: relative;	
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 8px;
+	padding-right: 8px;	
+}
+
+.subItemLink {
+	color: #2A3561;
+	font-size: 10px;
+	font-family: Tahoma;
+	font-weight: normal;
+	text-align: left;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.subItemLink:HOVER {
+	color: #166418;
+	font-size: 10px;
+	font-family: Tahoma;
+	font-weight: normal;
+	text-align: left;
+	text-decoration: none;
+	cursor: pointer;
+}

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd" >
+<beans>
+
+	
+	<!-- Utils layer -->
+	<bean id="DateFarsi" class="com.iac.ambit.utils.DateFarsi">
+
+	</bean>
+	
+
+
+
+	<!-- Service layer -->
+	<bean id="encryptionService" class="com.iac.ambit.service.EncryptionServiceImpl">
+
+	</bean>
+	<!-- Action Layer -->
+	<bean id="springWSSoapBindingStub" class="proxy.localhost.SBLService.axis.SpringWS.SpringWSSoapBindingStub">
+		
+	</bean>	
+	<bean name="/localeAction" class="com.iac.ambit.actionhandler.LocaleAction">
+		
+	</bean>	
+	<bean name="/logout" class="com.iac.ambit.actionhandler.LogoutAction">
+		<property name="springWSSoapBindingStub">
+			<ref bean="springWSSoapBindingStub" />
+		</property>
+	</bean>
+	<bean name="/login" class="com.iac.ambit.actionhandler.LoginForwardAction">
+	
+	</bean>
+	
+	<bean name="/loginAction" class="com.iac.ambit.actionhandler.LoginAction">
+		<property name="springWSSoapBindingStub">
+			<ref bean="springWSSoapBindingStub" />
+		</property>
+		<property name="encryptionService">
+			<ref bean="encryptionService" />
+		</property>
+	</bean>
+	
+	<bean name="/avaliableSystemPermission"
+		class="com.iac.ambit.actionhandler.SystemPermissionAction">
+		<property name="springWSSoapBindingStub">
+			<ref bean="springWSSoapBindingStub" />
+		</property>
+	</bean>
+	<bean name="/permissionManagement"
+		class="com.iac.ambit.actionhandler.PermissionsManagementAction">
+		<property name="springWSSoapBindingStub">
+			<ref bean="springWSSoapBindingStub" />
+		</property>
+	</bean>
+	
+	<bean name="/groupManagement"
+		class="com.iac.ambit.actionhandler.GroupManagementAction">
+		<property name="springWSSoapBindingStub">
+			<ref bean="springWSSoapBindingStub" />
+		</property>
+	</bean>
+	
+	<bean name="/customerManagement"
+		class="com.iac.ambit.actionhandler.CustomerManagementAction">
+		<property name="springWSSoapBindingStub">
+			<ref bean="springWSSoapBindingStub" />
+		</property>
+		<property name="encryptionService">
+			<ref bean="encryptionService" />
+		</property>
+	</bean>
+	
+	<bean name="/changePasswordAction" class="com.iac.ambit.actionhandler.ChangePasswordAction">
+		<property name="springWSSoapBindingStub">
+			<ref bean="springWSSoapBindingStub" />
+		</property>
+		<property name="encryptionService">
+			<ref bean="encryptionService" />
+		</property>
+	</bean>
+	
+	
+	
+	
+	
+	<bean name="/activitySearch"
+		class="com.iac.ambit.actionhandler.CustomerActivityForwardAction">
+		<property name="springWSSoapBindingStub">
+			<ref bean="springWSSoapBindingStub" />
+		</property>
+	</bean>
+	<bean name="/activitySearchAction"
+		class="com.iac.ambit.actionhandler.CustomerActivitySearchAction">
+		<property name="springWSSoapBindingStub">
+			<ref bean="springWSSoapBindingStub" />
+		</property>
+	</bean>
+	<bean name="/aggregateActivityLog"
+		class="com.iac.ambit.actionhandler.AggregateActivityLogForwardAction">
+		<property name="springWSSoapBindingStub">
+			<ref bean="springWSSoapBindingStub" />
+		</property>
+	</bean>
+
+	<bean name="/aggregateActivitySearch"
+		class="com.iac.ambit.actionhandler.AggregateActivitySearchAction">
+		<property name="springWSSoapBindingStub">
+			<ref bean="springWSSoapBindingStub" />
+		</property>
+	</bean>
+	
+	<bean name="/blackListTransReportForward"
+		class="com.iac.ambit.actionhandler.BlackListTransReportForwardAction">
+		<property name="springWSSoapBindingStub">
+			<ref bean="springWSSoapBindingStub" />
+		</property>
+	</bean>
+	
+	<bean name="/blackListTransReportAction"
+		class="com.iac.ambit.actionhandler.BlackListTransReportAction">
+		<property name="springWSSoapBindingStub">
+			<ref bean="springWSSoapBindingStub" />
+		</property>
+	</bean>
+	
+	<bean name="/blackListManagement"
+		class="com.iac.ambit.actionhandler.BlackListManagementAction">
+		<property name="springWSSoapBindingStub">
+			<ref bean="springWSSoapBindingStub" />
+		</property>
+	</bean>
+	
+	<bean name="/blackListManagementForward"
+		class="com.iac.ambit.actionhandler.BlackListManagementForwardAction">
+		<property name="springWSSoapBindingStub">
+			<ref bean="springWSSoapBindingStub" />
+		</property>
+	</bean>
+	
+	<bean name="/monitorTrans"
+		class="com.iac.ambit.actionhandler.BlackListMonitoringForwardAction">
+		<property name="springWSSoapBindingStub">
+			<ref bean="springWSSoapBindingStub" />
+		</property>
+	</bean>
+		
+	<bean name="/print" class="com.iac.ambit.actionhandler.PrintAction"/>
+
+
+    <bean name="/blackListMonitoring"
+		class="com.iac.ambit.actionhandler.BlackListMonitoringAction">
+		<property name="springWSSoapBindingStub">
+			<ref bean="springWSSoapBindingStub" />
+		</property>
+	</bean>	
+
+ <bean name="/cardLimitationAction"
+		class="com.iac.ambit.actionhandler.CardLimitationAction">
+		<property name="springWSSoapBindingStub">
+			<ref bean="springWSSoapBindingStub" />
+		</property>
+	</bean>
+</beans>
+

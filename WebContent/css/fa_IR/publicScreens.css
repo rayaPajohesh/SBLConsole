@@ -1,0 +1,618 @@
+/* CSS Document  */
+html {
+overflow-x: scroll;
+}
+
+
+
+body{
+    left: 0px;
+	top: 0px;
+	background-position: left top;
+    margin: 0px ;
+}
+table.globalTable{
+    width: 775px;
+    background-color: #ffffff;
+}
+
+	
+tr.HeaderUserNameLabel{
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 10px;    
+    height: 21px;
+    color: #FFFFFF;
+    padding: 5px;
+    background-color: #1B49A1;
+}
+table.contentTable{
+    height: 100%;
+    width: 512px;
+    background-color: #FFFFFF;
+    border-bottom-color: #C8C8C8;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    text-align: left;
+}
+
+.contentRow{
+    width: 100%;
+	}
+td.registerNow{
+    font-family:Tahoma;
+    font-size: 10px;
+	font-weight: bold;
+    color: #09478E;
+}
+.loginDetailsCell{
+	vertical-align: middle;
+	background-image: url("../../images/fa_IR/bg.jpg"); 
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.terms{
+    width: 100%;
+    font-size: 10px;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    background-color: White;
+    color: #000000;
+    text-align: justify;
+}
+td.contentCell{
+    width: 512px;
+    vertical-align: top;
+    text-align: left;
+}
+.heading{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.required{
+	font-size: 10px;
+    font-weight: bold;
+	color: #AE050A;
+    font-family: Tahoma;
+	}
+.important{
+    color: #AE050A;
+}
+.errorText{
+    font-family:Tahoma;
+	font-size: 11px;
+	font-weight: bold;
+    color: Red;
+}
+.bold{
+    font-weight: bold;
+}
+.bodyBG{
+    background-color: #FFFFFF;
+}
+.loginBG{
+	background-color: #F3F3F3;
+}
+td.registrationBarText {
+  font-family: Tahoma;
+  font-size: 12px;
+  font-weight: bold;
+  background-position: left;
+  text-indent: 10px;
+  height: 23px;
+  color: #FFFFFF;
+  border-bottom-color: #166418;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  background-color: #A3C334;
+}
+.wellcomeCustomerMessages {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+    color: #C00000;
+}
+.purpleCustomerMessages {
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: bold;
+  width: 100%;
+  color: #5F5F5F;
+  border-bottom: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: #FFFFFF;
+}
+table.errorTable{
+    font-family: Tahoma; 
+    font-size: 11px;
+    text-align: right;
+    color:red;
+    width: 392px;
+    height: 100%;
+    background-color: #F5F5F5;
+}
+td.errorTopCell{
+    background-image: url('../../images/fa_IR/errorbox-headcurve.gif');
+    height: 7px;    
+    background-repeat: no-repeat;
+    vertical-align: bottom;
+    background-color: #F5F5F5;
+}
+td.errorBottomCell{
+    background-image: url('../../images/fa_IR/errorbox-buttomcurve.gif');
+    height: 8px;    
+    background-repeat: no-repeat;
+    vertical-align: top;
+    background-color: #F5F5F5;
+}
+td.errorMidCell{
+    background-image: url('../../images/fa_IR/errorbox-mid.gif');
+    background-repeat: repeat-y;
+    width: 392px;
+    padding: 5px;
+    vertical-align: top;
+    background-color: #F5F5F5;
+    text-align: rigth;
+    direction: rtl;
+}
+
+table.errorTableBrowser{
+    font-family: Tahoma; 
+    font-size: 13px;
+    text-align: right;
+    color:red;
+    width: 500px;
+    height: 100%;
+    background-color: #F5F5F5;
+}
+
+td.errorMidCellBrowser{
+    background-image: url('../../images/fa_IR/errorbox-midBrowser.gif');
+    background-repeat: repeat-y;
+    width:500px;
+    padding: 15px;
+    vertical-align: top;
+    background-color: #F5F5F5;
+    text-align: rigth;
+    direction: ltr;
+}
+
+td.errorTopCellBrowser{
+    background-image: url('../../images/fa_IR/errorbox-headcurveBrowser.gif');
+    height: 7px;    
+    background-repeat: no-repeat;
+    vertical-align: bottom;
+    background-color: #F5F5F5;
+}
+
+
+td.errorBottomCellBrowser{
+    background-image: url('../../images/fa_IR/errorbox-buttomcurveBrowser.gif');
+    height: 8px;    
+    background-repeat: no-repeat;
+    vertical-align: top;
+    background-color: #F5F5F5;
+}
+
+
+.errorsIcon{
+    background-position: bottom;
+    background-image: url('../../images/fa_IR/erroricon.gif');
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 33px;
+}
+table.messageTable{
+    font-family:Tahoma; 
+    font-size: 11px;
+    text-align: center;
+    color:green;
+    padding: 5px;
+    width: 375px;
+    background-color: #F5F5F5;
+}
+
+td.messageCell{
+    background-position: center;
+    background-image: url('../../images/fa_IR/done.jpg');
+    background-repeat: no-repeat;
+    width: 45px;
+    height: 45px;
+    padding-left: 5px;
+    background-color: #F5F5F5;
+}
+
+td.footer{
+background-color: #09478E;
+}
+
+.footerCopyRight{
+    font-family: Tahoma;
+    font-size: 9px;
+    color: #3A3939;
+    text-align:left;
+}
+.footerLinks{
+    font-family: Tahoma;
+    font-size: 9px;
+    color: #ffffff;
+}
+.registrationHeading{
+    color: #9837D0;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Tahoma;
+    text-align: center;
+}
+table.registerationCompletedBG{
+    background-image: url(../../images/fa_IR/registrationcompleted-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.registerationCompleted{
+	color: #71A000;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Tahoma;
+}
+.registerationCompletedThankyouText{
+    color: #581473;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: Tahoma;
+}
+.registerationCompletedEmail{
+    color: #FF8400;
+    font-weight: bold;
+    font-size: 10px;
+    font-family: Tahoma;
+}
+.menu{
+    background-color: #FFFFFF;
+    width: 165px;
+}
+table.eforms{
+	background-color: #F5F5F5;
+	border-left-width: 1px;
+	border-left-color:  #E2E7EB;
+	border-top-width: 1px;
+	border-top-color:  #E2E7EB;
+		border-right-width: 1px;
+	border-right-color:  #E2E7EB;
+		border-bottom-width: 1px;
+	border-bottom-color:  #E2E7EB;
+}
+
+.loginContentLine{
+    border-top-color: #CDCDCD;
+    border-top-style: solid;
+    border-top-width: 1px;
+}
+td.purpleBarText {
+  font-family: Tahoma;
+  font-size: 14px;
+  font-weight: bold;
+  background-position: left;
+  text-indent: 10px;
+  height: 23px;
+  color: #080569;
+  border-bottom-color: #080569;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  background-color: #FFFFFF;
+}
+.WelcomeTableBorder {
+	width: 100%;
+	border-bottom: none;
+    border-top: none;
+    border-right:none;
+    border-left:none;
+    background-color: #FFFFFF;
+}
+
+.passwordGenerationBoldText{
+    color: #2A3561;
+    font-size: 10px;
+    font-family: Tahoma;
+    font-weight: bold;
+}
+ .loginBodyBoldText{
+    color: #0A0756;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Tahoma;
+    text-align: left;
+   
+}
+ .loginBodyText{
+    color: #000000;
+    font-size: 10px;
+     font-family: Tahoma;
+}
+
+/*.loginDisclaimerText{
+    color: gray;
+    font-size: 9px;
+    font-family: Tahoma;
+    letter-spacing: 0.5pt;
+}*/
+.loginDisclaimerText{
+    color: #000000;
+    font-size: 10px;
+    font-family: Tahoma;
+    letter-spacing: 0.5pt;
+}
+
+
+.loginPNoticeText{
+    color:Maroon;
+    font-weight: normal;
+    font-size: 9pt;
+    font-family: Tahoma;
+}
+.loginButtons{
+   font-family: Tahoma;
+	font-weight: bold;
+	font-size:8pt;
+	width:68px;
+	height:20px;
+	background-color:#89A3DE;
+	color:#ffffff;
+	vertical-align:top;
+	font-weight: bold;
+	font-family: Tahoma;
+	border-color: #FFFFFF;
+	background-color:#89A3DE;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#999999,direction=125,strength=2)
+}
+.submitButtons{
+	font-family: Tahoma;
+	font-weight: bold;
+	font-size: 8pt;
+	width:62px;
+	height:20px;
+	background-color:#89A3DE;
+	color:#ffffff;
+	vertical-align:middle;
+	font-weight: bold;
+	font-family: Tahoma;
+	border-color: #FFFFFF;
+	background-color:#89A3DE;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#999999,direction=125,strength=2)
+}
+.registrationHeadingText{
+    font-family: Tahoma;
+	font-size: 11px;
+    background-color: #A9CA35;
+	font-weight: bold;
+	height: 20px;
+    color: #000000;
+    text-align: right;
+}
+.registrationText{
+    color: #000000;
+    font-size: 11px;
+    font-family: Tahoma;
+    text-align: justify;
+    font-stretch: wider;
+}
+.HeaderText{
+    color: #000000;
+    font-size: 9px;
+    font-family: Tahoma;
+    font-stretch: wider;
+	text-align: center;
+	
+}
+.registrationMessage{
+    color: #000000;
+    font-size: 10px;
+    font-family: Tahoma;
+    vertical-align: top;
+    
+}
+.registrationTopLine{
+    border-top-color: #C8C8C8;
+    border-top-style: solid;
+    border-top-width: 1px;
+}
+.rightImageBorderBottom{
+    border-bottom-color: #C8C8C8;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+.registrationBoldText{
+    color: #000000;
+    font-size: 10px;
+    font-family: Tahoma;
+    vertical-align: middle;
+    font-weight: bold;
+}
+.registrationHelpText{
+    color: #676862;
+    font-size: 10px;
+    font-family: Tahoma;
+    text-align: left;
+}
+.registrationInputControls{
+    font-size: 10px;
+    with: 200px;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    vertical-align: middle;
+    text-align: right;
+}
+.loginPANControl{
+    font-size: 10px;
+    width: 135px;
+    font-family: Tahoma;
+    vertical-align: middle;
+}
+.loginPINControl{
+    font-size: 10px;
+    width: 135px;
+    font-family: Tahoma;
+    vertical-align: middle;
+}
+.loginPasswordControls{
+    font-size: 10px;
+    width: 11px;
+    height: 15px;
+    font-family: Tahoma;
+    vertical-align: middle;
+}
+
+.loginDisabledPasswordControls{
+    font-size: 10px;
+    width: 11px;
+    height: 15px;
+    font-family: Tahoma;
+    text-align: center;
+    vertical-align: middle;
+    background-color: rgb(204,204,204);    
+}
+.noUnderLine{
+    text-decoration: none;
+}
+.registrationAcceptText{
+    color: #F47A00;
+    font-size: 12px;
+    font-family: Tahoma;
+    text-align: left;
+}
+.printPageHeading{	
+	color: #000000;
+    font-size: 18px;
+    font-family: Tahoma;
+    text-align: center;
+    
+}
+
+.printPageSubHeading{	
+	color: #000000;
+    font-size: 14px;
+    font-family: Tahoma;
+    text-align: center;
+    font-weight: bold;
+    border-top-color: #000000;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-bottom-color: #000000;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.printPageBoldText{	
+	color: #000000;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: Tahoma;
+}
+.printPageText{	
+	color: #000000;
+    font-size: 12px;
+    font-family: Tahoma;
+}
+.printPageSmallBoldText{	
+	color: #000000;
+    font-size: 10px;
+    font-family: Tahoma;
+    font-weight: bold;
+    border-top-color: #000000;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-bottom-color: #000000;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+.printPageSmallText{	
+	color: #000000;
+    font-size: 10px;
+    font-family: Tahoma;
+    font-weight: bold; 
+}
+
+
+.bottomline{
+	border-bottom-color: #000000;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+	
+}
+
+table.printPageTable{
+	width: 80%;
+	border-bottom: 1px;
+    border-top: 1px;
+    border-right:1px;
+    border-left: 1px;
+    background-color: #FFFFFF;
+}
+
+
+
+.panelRegistrationText{
+font-size: 12px;
+font-family: Tahoma;
+color: #000000;
+}
+
+.docHeading {
+	font-family: tahoma;
+	font-size: 13px;
+	font-weight: bold;
+	text-indent: 9px;
+	font-stretch: wider;
+	height: 30px;
+	color:  #000000;
+	direction: rtl;
+
+}
+.captchaImage {
+	BORDER-RIGHT: gray 2px solid;
+	BORDER-TOP: gray 2px solid;
+	BORDER-LEFT: gray 2px solid;
+	BORDER-BOTTOM: gray 2px solid;
+}
+
+.panelRegistrationInputTextForCaptcha {
+	
+	font-family: Tahoma;
+	font-size: 12px;
+	text-align: left;	
+	color: #0A0756;
+	border: 1px solid #0A0756;
+	direction: rtl;
+	font-size: 12px;
+	
+	
+	
+}
+
+.stretchTextInLine{
+    text-align: justify;
+    font-stretch: wider;
+    font-size: 12px;
+    font-family: Tahoma;
+    color: #000000;
+}
+.panLogin {
+	direction: rtl;	
+	width : 33px;
+	font-family: Tahoma;
+	font-size: 13px;
+	text-align: left;
+	
+}
+.monthYear{
+	font-size: 12px;
+	font-family: Tahoma;
+	
+	
+}	
+.loginVirtualKey{
+	text-align: right;
+	font-family: Tahoma;
+	font-size: 10px;
+}	

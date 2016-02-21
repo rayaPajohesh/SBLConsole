@@ -1,0 +1,193 @@
+<?xml version='1.0' encoding='windows-1256'?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 1.1//EN"
+       "http://struts.apache.org/dtds/tiles-config_1_1.dtd">
+<tiles-definitions>
+	<definition name="secure.template" path="/secureSiteLayout.jsp">
+		<put name="header" value="/header.jsp" />
+		<put name="menu" value="/menu.jsp" />
+		<put name="footer" value="/footer.jsp" />
+		<put name="body" value="" />
+	</definition>
+
+	<definition name="print.template" path="/printSiteLayout.jsp">
+		<put name="header" value="/printHeader.jsp" />
+		<put name="footer" value="/printfooter.jsp" />
+		<put name="body" value="" />
+	</definition>
+
+	<definition name="public.template" path="/publicSiteLayout.jsp">
+		<put name="header" value="/publicHeader.jsp" />
+		<put name="footer" value="/publicfooter.jsp" />
+		<put name="body" value="" />
+	</definition>
+
+	<definition name="menu.submenu" path="/submenuTry.jsp">
+		<put name="subitemCount" value="" />
+	</definition>
+	<!-- Admin Module definitions -->
+
+	<definition name="menu.main" path="/menuTry.jsp">
+		<put name="cssPath" value="css/fa_IR/menu.css" />
+		<putList name="items">
+			<add value="menu.home" />			
+			<add value="menu.GroupManagement" />
+			<add value="menu.CustomerManagement" />	
+			<add value="menu.ChangePassword" />
+			<add value="menu.BlackList" />			
+			<add value="menu.Reports" />
+			<add value="menu.Monitor" />		
+			
+		</putList>
+	</definition>
+	<definition name="menu.home" extends="menu.submenu">
+		<put name="title" value="صفحه اول" />
+		<put name="id" value="3" />
+		<put name="subitemCount" value="0" />
+		<put name="link" value="welcome.do" />
+	</definition>
+	
+	
+	<definition name="menu.GroupManagement" extends="menu.submenu">
+		<put name="title" value="مديريت گروه" />
+		<put name="id" value="5" />
+		<put name="subitemCount" value="3" />
+		<putList name="items">
+			<item id="6" value="تعريف گروه" link="groupManagement.do?method=add"
+				classtype="com.iac.ambit.model.MenuItem" />
+			<item id="7" value="تغيير گروه" link="groupManagement.do?method=edit"
+				classtype="com.iac.ambit.model.MenuItem" />				
+			<item id="8" value="نمايش گروه ها" link="groupManagement.do?method=view"
+				classtype="com.iac.ambit.model.MenuItem" />		
+		</putList>
+	</definition>
+	<definition name="menu.CustomerManagement" extends="menu.submenu">
+		<put name="title" value="مديريت كاربران" />
+		<put name="id" value="9" />
+		<put name="subitemCount" value="5" />
+		<putList name="items">
+			<item id="10" value="تعريف كاربر" link="customerManagement.do?method=add"
+				classtype="com.iac.ambit.model.MenuItem" />
+			<item id="11" value="تغيير كاربر" link="customerManagement.do?method=edit"
+				classtype="com.iac.ambit.model.MenuItem" />	
+			<item id="12" value="نمايش كاربران" link="customerManagement.do?method=view"
+				classtype="com.iac.ambit.model.MenuItem" />
+			<item id="13" value="عملكرد كاربران" link="activitySearch.do"
+				classtype="com.iac.ambit.model.MenuItem" />
+			<item id="14" value="آمار عملكرد" link="aggregateActivityLog.do"
+				classtype="com.iac.ambit.model.MenuItem" />		
+		</putList>		
+	</definition>
+	<definition name="menu.ChangePassword" extends="menu.submenu">
+		<put name="title" value="تغيير رمز" />
+		<put name="id" value="15" />
+		<put name="subitemCount" value="0" />
+		<put name="link" value="changePassword.do" />
+	</definition>
+	<definition name="menu.BlackList" extends="menu.submenu">
+		<put name="title" value="مديريت ليست سياه" />
+		<put name="id" value="16" />
+		<put name="subitemCount" value="0" />
+		<put name="link" value="blackListManagementForward.do" />
+	</definition>
+
+
+
+	<definition name="menu.Reports" extends="menu.submenu">
+		<put name="title" value="گزارشات" />
+		<put name="id" value="23" />
+		<put name="subitemCount" value="1" />
+	   <putList name="items">
+			<item id="24" value="گزارش تراكنشهاي ليست سياه" link="blackListTransReportForward.do?menu=yes"
+				classtype="com.iac.ambit.model.MenuItem" />	
+		</putList>	
+	</definition>
+
+	<definition name="menu.Monitor" extends="menu.submenu">
+		<put name="title" value="مانيتورينگ" />
+		<put name="id" value="25" />
+		<put name="subitemCount" value="0" />
+		<put name="link" value="monitorTrans.do" />
+	</definition>
+
+	<definition name="/welcome.page" extends="secure.template">
+		<put name="body" value="/welcome.jsp" />
+	</definition>
+
+
+	<definition name="/login.page" extends="public.template">
+		<put name="body" value="/login.jsp" />
+	</definition>
+	
+	<definition name="/systemPermission.page" extends="secure.template">
+		<put name="body" value="/systemPermission.jsp" />
+	</definition>
+
+	<definition name="/publicError.page" extends="public.template">
+		<put name="body" value="/publicErrorPage.jsp" />
+	</definition>
+
+	<definition name="/pageNotFound.page" extends="secure.template">
+		<put name="body" value="/pageNotFound.jsp" />
+	</definition>
+
+	<definition name="/systemPermission.page" extends="secure.template">
+		<put name="body" value="/systemPermission.jsp" />
+	</definition>
+	
+	<definition name="/groupManagement.page" extends="secure.template">
+		<put name="body" value="/groupManagement.jsp" />
+	</definition>
+	
+	<definition name="/customerManagement.page" extends="secure.template">
+		<put name="body" value="/customerManagement.jsp" />
+	</definition>
+	
+	<definition name="/changePassword.page" extends="secure.template">
+		<put name="body" value="/changePassword.jsp" />
+	</definition>
+	
+	
+	<definition name="/activitySearch.page" extends="secure.template">
+		<put name="body" value="/activityLog.jsp" />
+	</definition>
+	
+	<definition name="/aggregateActivityLog.page"
+		extends="secure.template">
+		<put name="body" value="/aggregateActivityLog.jsp" />
+	</definition>
+	
+	<definition name="/blackListTransReport.page"
+		extends="secure.template">
+		<put name="body" value="/blackListTransReport.jsp" />
+	</definition>
+	
+	<definition name="/blackList.page" extends="secure.template">
+		<put name="body" value="/blackList.jsp" />
+	</definition>
+	
+	<definition name="/cardLimitation.page" extends="secure.template">
+		<put name="body" value="/cardLimitation.jsp" />
+	</definition>
+	
+	<definition name="/monitorTransactions.page" extends="secure.template">
+		<put name="body" value="/monitorTransactions.jsp" />
+	</definition>
+		
+	<definition name="/contactUs.page" extends="secure.template">
+		<put name="body" value="/contactUs.jsp" />
+	</definition>
+
+	<definition name="/contactUsLogin.page" extends="public.template">
+		<put name="body" value="/contactUs.jsp" />
+	</definition>
+
+	<definition name="/siteMap.page" extends="public.template">
+		<put name="body" value="/siteMap.jsp" />
+	</definition>
+
+	<definition name="/siteGuide.page" extends="public.template">
+		<put name="body" value="/siteGuide.jsp" />
+	</definition>
+
+</tiles-definitions>

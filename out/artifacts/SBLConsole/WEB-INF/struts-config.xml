@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.1//EN"
+                               "http://jakarta.apache.org/struts/dtds/struts-config_1_1.dtd">
+<struts-config>
+	<data-sources />
+	<form-beans>
+
+
+		<form-bean name="loginForm"
+			type="org.apache.struts.validator.DynaValidatorForm">
+			<form-property name="customerId" type="java.lang.String" />
+			<form-property name="customerPassword"
+				type="java.lang.String" />
+			<form-property name="captcha" type="java.lang.String" />
+
+		</form-bean>
+		<form-bean name="systemPermissionForm"
+			type="org.apache.struts.validator.DynaValidatorActionForm">
+			<form-property name="status" type="java.lang.String" />
+			<form-property name="permissionIds" type="java.lang.String" />
+		</form-bean>
+		<form-bean name="groupManagement"
+			type="org.apache.struts.validator.DynaValidatorActionForm">
+			<form-property name="groupId" type="java.lang.String" />
+			<form-property name="groupName" type="java.lang.String" />
+			<form-property name="groupDescription"
+				type="java.lang.String" />
+			<form-property name="permissionIds" type="java.lang.String" />
+			<form-property name="selectedGroupId"
+				type="java.lang.String" />
+			<form-property name="groupList" type="java.lang.String" />
+			<form-property name="method" type="java.lang.String" />
+			<form-property name="status" type="java.lang.String" />
+		</form-bean>
+		<form-bean name="customerManagement"
+			type="org.apache.struts.validator.DynaValidatorActionForm">
+			<form-property name="userId" type="java.lang.String" />
+			<form-property name="userName" type="java.lang.String" />
+			<form-property name="userPassword"
+				type="java.lang.String" />
+			<form-property name="confirmPassword"
+				type="java.lang.String" />
+			<form-property name="terminalId" type="java.lang.String" />
+			<form-property name="groupIds" type="java.lang.String" />
+			<form-property name="selectedUserId"
+				type="java.lang.String" />
+			<form-property name="userList" type="java.lang.String" />
+			<form-property name="method" type="java.lang.String" />
+			<form-property name="status" type="java.lang.String" />
+			<form-property name="terminalStatus"
+				type="java.lang.String" />
+			<form-property name="searchTerminalName" type="java.lang.String" />		
+			
+		</form-bean>
+
+		<form-bean name="changePasswordForm"
+			type="org.apache.struts.validator.DynaValidatorForm">
+			<form-property name="confirmPassword"
+				type="java.lang.String" />
+			<form-property name="newPassword" type="java.lang.String" />
+			<form-property name="oldPassword" type="java.lang.String" />
+		</form-bean>
+						
+		
+	  
+
+		<form-bean name="activitySearchForm"
+			type="org.apache.struts.validator.DynaValidatorActionForm">
+			<form-property name="fromDate" type="java.lang.String" />
+			<form-property name="toDate" type="java.lang.String" />
+			<form-property name="allActivity" type="java.lang.String" />
+			<form-property name="allUser" type="java.lang.String" />
+			<form-property name="selectedActivityTypeId"
+				type="java.lang.String" />
+			<form-property name="selectedUserId"
+				type="java.lang.String" />
+		</form-bean>
+		
+		 <form-bean name="blackListTransReportAction"
+			type="org.apache.struts.validator.DynaValidatorActionForm">
+			<form-property name="fromDate"  type="java.lang.String" />				
+			<form-property name="toDate" type="java.lang.String" />		
+			<form-property name="RRN" type="java.lang.String" />
+			<form-property name="stan" type="java.lang.String" />
+			<form-property name="timeListFrom" type="java.lang.String" />
+			<form-property name="timeListTo" type="java.lang.String" />
+			<form-property name="pan" type="java.lang.String" />
+								
+		</form-bean>
+		<form-bean name="blackListManagement"
+			type="org.apache.struts.validator.DynaValidatorActionForm">
+			<form-property name="fromDate"
+				type="java.lang.String" />
+			<form-property name="toDate" type="java.lang.String" />
+			<form-property name="pan" type="java.lang.String" />
+			<form-property name="searchCustomerName" type="java.lang.String" />
+			<form-property name="blackReasons" type="java.lang.String" />
+			<form-property name="blackedReasonId" type="java.lang.String" />
+			<form-property name="notes" type="java.lang.String" />
+			<form-property name="activeFlag" type="java.lang.String" />
+			<form-property name="selectedPan" type="java.lang.String" />
+			<form-property name="statusList" type="java.lang.String" />
+			<form-property name="codeActiveFlag" type="java.lang.String" />
+		</form-bean>
+		
+		<form-bean name="cardLimitationForm" type="org.apache.struts.validator.DynaValidatorActionForm">
+			  <form-property name="chkShetabiTransaction" type="java.lang.String" />
+	         <form-property name="terminalNumber" type="java.lang.String" />
+	         <form-property name="notes" type="java.lang.String" />
+	         <form-property name="chkATM" type="java.lang.String" />
+	         <form-property name="chkPOS" type="java.lang.String" />
+	         <form-property name="chkInternet" type="java.lang.String" />
+	         <form-property name="chkTelephone" type="java.lang.String" />
+	         <form-property name="chkMobile" type="java.lang.String" />
+	         <form-property name="chkPinPad" type="java.lang.String" />
+	         <form-property name="chkWithdraw" type="java.lang.String" />
+	         <form-property name="chkFundTransfer" type="java.lang.String" />
+	         <form-property name="chkBalance" type="java.lang.String" />
+	         <form-property name="chkPurchase" type="java.lang.String" />
+	         <form-property name="chkMiniStatement" type="java.lang.String" />
+	         <form-property name="chkValidation" type="java.lang.String" />
+	         <form-property name="chkBillPayment" type="java.lang.String" />
+	         <form-property name="chkChangePin" type="java.lang.String" />
+	         <form-property name="chkChangePin2" type="java.lang.String" />
+	         <form-property name="cardNo" type="java.lang.String" />
+	         <form-property name="method" type="java.lang.String" />
+	
+		</form-bean>
+
+        <form-bean name="monitorTransForm"
+			type="org.apache.struts.validator.DynaValidatorActionForm">
+			<form-property name="refreshIntervalInSec"
+				type="java.lang.String" />
+			<form-property name="isAlertName" type="java.lang.String" />
+			<form-property name="alertTimeInSec" type="java.lang.String" />			
+		</form-bean>
+
+
+	</form-beans>
+	<global-exceptions>
+		<exception handler="com.iac.ambit.utils.RMIExceptionHandler"
+			key="general.operationfailed"
+			type="com.iac.ambit.utils.AmbitCRMException" />
+		<exception handler="com.iac.ambit.utils.AmbitExceptionHandler"
+			key="general.operationfailed" type="java.lang.Throwable" />
+	</global-exceptions>
+	<global-forwards>
+		<forward name="localeAction" path="/localeAction.do" />
+		<forward name="login" path="/login.do" />
+
+		<forward name="faqs" path="/faqs.do" />
+		<forward name="security" path="/security.do" />
+		<forward name="process" path="/process.do" />
+		<forward name="privacy" path="/privacy.do" />
+		<forward name="facilities" path="/facilities.do" />
+		<forward name="error" path="/error.do" />
+		<forward name="exerror" path="/error.do" />
+		<forward name="publicError" path="/publicError.do" />
+		<forward name="multipleSubmission"
+			path="/multipleSubmission.page" />
+		<forward name="resetToDefaults" path="/resetToDefaults.do" />
+	</global-forwards>
+
+
+	<action-mappings>
+
+		<action path="/login"
+			type="org.springframework.web.struts.DelegatingActionProxy">
+			<forward name="success" path="/login.page" />
+			<forward name="locale" path="/localeAction.do"  />
+			
+		</action>
+		<action input="/login.page" name="loginForm" path="/loginAction"
+			scope="request"
+			type="org.springframework.web.struts.DelegatingActionProxy">
+			<forward name="failure" path="/login.do" />
+			<forward name="success" path="/welcome.do" />
+		</action>
+		<action parameter="/staticJavaScript.jsp"
+			path="/staticJavascript"
+			type="org.apache.struts.actions.ForwardAction" />
+		<action path="/logout"
+			type="org.springframework.web.struts.DelegatingActionProxy">
+			<forward name="success" path="/login.do"
+				redirect="true" />
+		</action>
+
+		<action input="/localeAction.do" path="/localeAction"
+			type="org.springframework.web.struts.DelegatingActionProxy">
+			<forward name="success" path="/login.do" redirect="true" />
+		</action>
+
+		<action path="/avaliableSystemPermission"
+			type="org.springframework.web.struts.DelegatingActionProxy"
+			unknown="false">
+			<forward name="failure" path="/systemPermission.do" />
+			<forward name="success" path="/systemPermission.do"
+				redirect="false" />
+		</action>
+		<action name="systemPermissionForm" path="/permissionManagement"
+			type="org.springframework.web.struts.DelegatingActionProxy"
+			unknown="false">
+			<forward name="failure" path="/systemPermission.do" />
+			<forward name="success"
+				path="/avaliableSystemPermission.do?submitKey=first"
+				redirect="false" />
+		</action>
+
+		<action name="groupManagement" path="/groupManagement" 
+			scope="request" 
+			type="org.springframework.web.struts.DelegatingActionProxy"
+			parameter="method">
+			<forward name="add" path="/groupManagement.page" />
+			<forward name="edit" path="/groupManagement.page" />
+			<forward name="view" path="/groupManagement.page" />
+		</action>
+
+		<action name="customerManagement" path="/customerManagement"
+			scope="request"
+			type="org.springframework.web.struts.DelegatingActionProxy"
+			parameter="method">
+			<forward name="add" path="/customerManagement.page" />
+			<forward name="edit" path="/customerManagement.page" />
+			<forward name="view" path="/customerManagement.page" />			
+		</action>
+
+		<action input="/changePassword.page" name="changePasswordForm"
+			path="/changePasswordAction" scope="request"
+			type="org.springframework.web.struts.DelegatingActionProxy">
+			<forward name="success" path="/changePassword.page" />
+			<forward name="failure" path="/changePassword.page" />
+		</action>
+		
+		
+
+		<action path="/activitySearch" scope="request"
+			type="org.springframework.web.struts.DelegatingActionProxy">
+			<forward name="success" path="/activitySearch.page"
+				redirect="false" />
+		</action>
+		<action input="/activitySearch.page" name="activitySearchForm"
+			path="/activitySearchAction" scope="request"
+			type="org.springframework.web.struts.DelegatingActionProxy">
+			<forward name="failure" path="/activitySearch.do"
+				redirect="false" />
+			<forward name="success" path="/activitySearch.page" />
+		</action>
+
+		<action path="/aggregateActivityLog"
+			type="org.springframework.web.struts.DelegatingActionProxy"
+			unknown="false" scope="session">
+			<forward name="success" path="/aggregateActivityLog.page"></forward>
+		</action>
+
+		<action name="activitySearchForm"
+			path="/aggregateActivitySearch" input="/aggregateActivityLog.page"
+			type="org.springframework.web.struts.DelegatingActionProxy"
+			scope="request" unknown="false">
+			<forward name="success" path="/aggregateActivityLog.page"
+				redirect="false" />
+			<forward name="failure" path="/aggregateActivityLog.do"
+				redirect="false" />
+		</action>
+		
+		
+		<action path="/blackListTransReportForward" scope="request"
+			type="org.springframework.web.struts.DelegatingActionProxy">
+			<forward name="success" path="/blackListTransReport.page"
+				redirect="false" />				
+			<forward name="failure" path="/blackListTransReport.page"
+				redirect="false" />
+		</action>
+		
+				
+		<action input="/blackListTransReport.page" name="blackListTransReportAction"
+			path="/blackListTransReportAction" scope="request" parameter="blackListTransReport"
+			type="org.springframework.web.struts.DelegatingActionProxy">
+			<forward name="searchPan" path="/blackListTransReport.page"
+				redirect="false" />
+			<forward name="success" path="/blackListTransReport.page" redirect="false" />
+			<forward name="failure" path="/blackListTransReport.page" redirect="false" />
+			<forward name="cancel" redirect="false" path="/blackListManagement.do"  />
+		</action>
+		 
+		
+		
+		<action input="/blackList.page"  path="/blackListManagement"
+			name ="blackListManagement"  scope="request"  parameter="blackList"
+			type="org.springframework.web.struts.DelegatingActionProxy" >
+			
+			
+			<forward name="add" path="/blackList.page"
+				redirect="false" />	
+			<forward name="edit" path="/blackList.page"
+				redirect="false" />	
+			<forward name="delete" path="/blackList.page"
+				redirect="false" />	
+			<forward name="cancelOperation" path="/blackList.page"
+				redirect="false" />
+			<forward name="searchSuccess" path="/blackList.page"
+				redirect="false" />	
+			<forward name="searchPan" path="/blackList.page"
+				redirect="false" />
+			<forward name="failure" path="/blackList.page"
+				redirect="false" />	
+			<forward name="limits" path="/cardLimitation.page"
+				redirect="false" />	
+			<forward name="transactions" path="/blackListTransReportForward.do"
+				redirect="false" />		
+			<forward name="operationOk" path="/blackList.page"
+				redirect="false" />			
+		</action>
+		
+		
+		<action path="/blackListManagementForward"   scope="request" 
+			type="org.springframework.web.struts.DelegatingActionProxy"
+			 > 
+			<forward name="success" path="/blackList.page"
+				redirect="false" />
+					
+		</action>
+		
+		<action input="/cardLimitation.page"  path="/cardLimitationAction"
+			name ="cardLimitationForm"  scope="request"  
+			type="org.springframework.web.struts.DelegatingActionProxy" >	
+			<forward name="success" path="/cardLimitation.page"  />
+			<forward name="failure" path="/cardLimitation.page"  />	
+			<forward name="cancel" redirect="false" path="/blackListManagement.do"  />					 				
+		</action>
+			
+		<action path="/monitorTrans" scope="request"
+			type="org.springframework.web.struts.DelegatingActionProxy">
+			<forward name="success" path="/monitorTransactions.page"
+				redirect="false" />
+			<forward name="failure" path="/monitorTransactions.page"
+				redirect="false" />	
+		</action>
+		
+		
+       <action input="/monitorTransactions.page"  path="/blackListMonitoring"
+			name ="monitorTransForm"  scope="request"  parameter="monitor"
+			type="org.springframework.web.struts.DelegatingActionProxy" >						
+			<forward name="confirmRefreshIntervalInSec" path="/monitorTransactions.page"
+				redirect="false" />	
+			<forward name="confirmAlertInfo" path="/monitorTransactions.page"
+				redirect="false" />	
+			<forward name="refresh" path="/monitorTransactions.page"
+				redirect="false" />	
+			<forward name="failure" path="/monitorTransactions.page"
+				redirect="false" />				
+		</action>
+		
+		
+				
+		<!-- Forwards to hide JSPs -->
+		<action parameter="/contactUs.page" path="/contactUs"
+			type="org.apache.struts.actions.ForwardAction" />
+		<action parameter="/changePassword.page" path="/changePassword"
+			type="org.apache.struts.actions.ForwardAction" />
+		
+		
+			
+		<action parameter="/welcome.page" path="/welcomeToIB"
+			type="org.apache.struts.actions.ForwardAction" />
+
+		<action parameter="/index.jsp" path="/welcome"
+			type="org.apache.struts.actions.ForwardAction" />
+		<action parameter="/pageNotFound.page" path="/pageNotFound"
+			type="org.apache.struts.actions.ForwardAction" />
+		<action path="/systemPermission"
+			parameter="/systemPermission.page"
+			type="org.apache.struts.actions.ForwardAction" unknown="false" />
+			
+	  <action path="/print" type="org.springframework.web.struts.DelegatingActionProxy">
+         <forward name="blackListTransReportPrint" path="/blackListTransReportPrint.jsp"/>
+         <forward name="blackListPrint" path="/blackListManagementPrint.jsp"/>  
+         <forward name="monitorTransactionsPrint" path="/monitorTransactionsPrint.jsp"/>
+      </action>							
+	</action-mappings>
+
+	<controller
+		processorClass="org.apache.struts.tiles.TilesRequestProcessor"  nocache="true"/>
+	<message-resources parameter="ApplicationResources" />
+	<plug-in className="com.iac.ambit.utils.AmbitInitializationPlugin" />
+	<plug-in className="org.apache.struts.tiles.TilesPlugin">
+		<set-property property="definitions-config"
+			value="/WEB-INF/tiles-defs.xml" />
+		<set-property property="moduleAware" value="true" />
+		<set-property property="definitions-parser-validate"
+			value="true" />
+	</plug-in>
+	<plug-in className="org.apache.struts.validator.ValidatorPlugIn">
+		<set-property property="stopOnFirstError" value="false" />
+		<set-property property="pathnames"
+			value="/WEB-INF/validator-rules.xml,/WEB-INF/validation.xml" />
+	</plug-in>
+	<plug-in
+		className="org.springframework.web.struts.ContextLoaderPlugIn">
+		<set-property property="contextConfigLocation"
+			value="/WEB-INF/applicationContext.xml" />
+	</plug-in>
+</struts-config>

@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PROCESS ENTITY="StrutsProcess">
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="multipleSubmission"
+  NAME="forward0" PATH="/multipleSubmission.page" SHAPE="32,17,0,0"
+  TARGET="page0" TITLE="multipleSubmission" TYPE="forward"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="facilities"
+  NAME="forward2" PATH="/facilities.do" SHAPE="32,1649,0,0"
+  TARGET="action3" TITLE="facilities" TYPE="forward"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="process" NAME="forward3"
+  PATH="/process.do" SHAPE="32,1761,0,0" TARGET="action22"
+  TITLE="process" TYPE="forward"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="exerror" NAME="forward4"
+  PATH="/error.do" SHAPE="32,1873,0,0" TARGET="action9" TITLE="exerror" TYPE="forward"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="security" NAME="forward5"
+  PATH="/security.do" SHAPE="32,2097,0,0" TARGET="action4"
+  TITLE="security" TYPE="forward"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="faqs" NAME="forward6"
+  PATH="/faqs.do" SHAPE="32,2209,0,0" TARGET="action2" TITLE="faqs" TYPE="forward"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="resetToDefaults"
+  NAME="forward7" PATH="/resetToDefaults.do" SHAPE="32,2321,0,0"
+  TARGET="action8" TITLE="resetToDefaults" TYPE="forward"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="publicError"
+  NAME="forward8" PATH="/publicError.do" SHAPE="32,2545,0,0"
+  TARGET="action0" TITLE="publicError" TYPE="forward"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="error" NAME="forward9"
+  PATH="/error.do" SHAPE="32,1985,0,0" TARGET="action9" TITLE="error" TYPE="forward"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="privacy" NAME="forward10"
+  PATH="/privacy.do" SHAPE="32,2657,0,0" TARGET="action1"
+  TITLE="privacy" TYPE="forward"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem"
+  ID="com.iac.ambit.utils.AmbitCRMException" NAME="exception0"
+  SHAPE="656,15489,0,0" TITLE="AmbitCRMException" TYPE="exception"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="java.lang.Throwable"
+  NAME="exception1" SHAPE="864,15473,0,0" TITLE="Throwable" TYPE="exception"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#login" NAME="action29"
+  PATH="/login" SHAPE="304,145,0,0" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="success"
+   NAME="forward1" PATH="/login.page" TARGET="page32" TITLE="success" TYPE="forward"/>
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="locale"
+   NAME="forward0" PATH="/localeAction.do" TARGET="action7"
+   TITLE="locale" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#loginAction"
+  NAME="action126" PATH="/loginAction" SHAPE="32,1505,0,0"
+  TITLE="loginForm" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="success"
+   NAME="forward0" PATH="/welcome.do" TARGET="action10" TITLE="success" TYPE="forward"/>
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="failure"
+   NAME="forward1" PATH="/login.do" TARGET="action29" TITLE="failure" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page0"
+  PATH="/multipleSubmission.page" SHAPE="240,34,0,0" SUBTYPE="other"
+  TITLE="multipleSubmission.page" TYPE="page"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page32"
+  PATH="/login.page" SHAPE="512,257,0,0" SUBTYPE="other"
+  TITLE="login.page" TYPE="page"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#facilities"
+  NAME="action3" PATH="/facilities" SHAPE="240,1649,0,0"
+  SUBTYPE="unknown" TYPE="action"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#resetToDefaults"
+  NAME="action8" PATH="/resetToDefaults" SHAPE="448,2433,0,0"
+  SUBTYPE="unknown" TYPE="action"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#process" NAME="action22"
+  PATH="/process" SHAPE="240,1985,0,0" SUBTYPE="unknown" TYPE="action"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#publicError"
+  NAME="action0" PATH="/publicError" SHAPE="240,2769,0,0"
+  SUBTYPE="unknown" TYPE="action"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#security" NAME="action4"
+  PATH="/security" SHAPE="240,2321,0,0" SUBTYPE="unknown" TYPE="action"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#welcome" NAME="action10"
+  PATH="/welcome" SHAPE="240,3025,0,0" SUBTYPE="parameter" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" NAME="action10"
+   PATH="/index.jsp" TARGET="page3" TITLE="parameter" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#error" NAME="action9"
+  PATH="/error" SHAPE="240,1873,0,0" SUBTYPE="unknown" TYPE="action"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#faqs" NAME="action2"
+  PATH="/faqs" SHAPE="240,2209,0,0" SUBTYPE="unknown" TYPE="action"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#privacy" NAME="action1"
+  PATH="/privacy" SHAPE="240,2657,0,0" SUBTYPE="unknown" TYPE="action"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#welcomeToIB"
+  NAME="action5" PATH="/welcomeToIB" SHAPE="32,3185,0,0"
+  SUBTYPE="parameter" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" NAME="action5"
+   PATH="/welcome.page" TARGET="page1" TITLE="parameter" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page1"
+  PATH="/welcome.page" SHAPE="240,3202,0,0" SUBTYPE="other"
+  TITLE="welcome.page" TYPE="page"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#logout" NAME="action6"
+  PATH="/logout" SHAPE="32,3297,0,0" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="success"
+   NAME="forward0" PATH="/login.do" TARGET="action29" TITLE="success" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#localeAction"
+  NAME="action7" PATH="/localeAction" SHAPE="256,3313,0,0" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="success"
+   NAME="forward0" PATH="/login.do" TARGET="action29" TITLE="success" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#staticJavascript"
+  NAME="action11" PATH="/staticJavascript" SHAPE="32,3297,0,0"
+  SUBTYPE="parameter" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" NAME="action11"
+   PATH="/staticJavaScript.jsp" TARGET="page2" TITLE="parameter" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page2"
+  PATH="/staticJavaScript.jsp" SHAPE="240,3458,0,0" SUBTYPE="jsp"
+  TITLE="staticJavaScript.jsp" TYPE="page"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page3" PATH="/index.jsp"
+  SHAPE="448,3025,0,0" SUBTYPE="jsp" TITLE="index.jsp" TYPE="page"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#pageNotFound"
+  NAME="action12" PATH="/pageNotFound" SHAPE="32,3553,0,0"
+  SUBTYPE="parameter" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" NAME="action12"
+   PATH="/pageNotFound.page" TARGET="page4" TITLE="parameter" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page4"
+  PATH="/pageNotFound.page" SHAPE="240,3570,0,0" SUBTYPE="other"
+  TITLE="pageNotFound.page" TYPE="page"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem"
+  ID="#avaliableSystemPermission" NAME="action13"
+  PATH="/avaliableSystemPermission" SHAPE="32,3665,0,0" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="success"
+   NAME="forward0" PATH="/systemPermission.do" TARGET="action14"
+   TITLE="success" TYPE="forward"/>
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="failure"
+   NAME="forward1" PATH="/systemPermission.do" TARGET="action14"
+   TITLE="failure" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#systemPermission"
+  NAME="action14" PATH="/systemPermission" SHAPE="256,3681,0,0"
+  SUBTYPE="parameter" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" NAME="action14"
+   PATH="/systemPermission.page" TARGET="page5" TITLE="parameter" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page5"
+  PATH="/systemPermission.page" SHAPE="464,3681,0,0" SUBTYPE="other"
+  TITLE="systemPermission.page" TYPE="page"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#permissionManagement"
+  NAME="action15" PATH="/permissionManagement" SHAPE="32,3809,0,0"
+  TITLE="systemPermissionForm" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="success"
+   NAME="forward0" PATH="/avaliableSystemPermission.do?submitKey=first"
+   TARGET="action13" TITLE="success" TYPE="forward"/>
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="failure"
+   NAME="forward1" PATH="/systemPermission.do" TARGET="action14"
+   TITLE="failure" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page6"
+  PATH="/groupManagement.page" SHAPE="240,4177,0,0" SUBTYPE="other"
+  TITLE="groupManagement.page" TYPE="page"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#changePasswordAction"
+  NAME="action17" PATH="/changePasswordAction" SHAPE="32,129,0,0"
+  TITLE="changePasswordForm" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="success"
+   NAME="forward0" PATH="/changePassword.page" TARGET="page7"
+   TITLE="success" TYPE="forward"/>
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="failure"
+   NAME="forward1" PATH="/changePassword.page" TARGET="page7"
+   TITLE="failure" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page7"
+  PATH="/changePassword.page" SHAPE="272,146,0,0" SUBTYPE="other"
+  TITLE="changePassword.page" TYPE="page"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#changePassword"
+  NAME="action18" PATH="/changePassword" SHAPE="32,129,0,0"
+  SUBTYPE="parameter" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" NAME="action18"
+   PATH="/changePassword.page" TARGET="page7" TITLE="parameter" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#customerManagement"
+  NAME="action19" PATH="/customerManagement" SHAPE="32,4497,0,0"
+  TITLE="customerManagement" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="view"
+   NAME="forward1" PATH="/customerManagement.page" TARGET="page9"
+   TITLE="view" TYPE="forward"/>
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="add"
+   NAME="forward2" PATH="/customerManagement.page" TARGET="page9"
+   TITLE="add" TYPE="forward"/>
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="edit"
+   NAME="forward3" PATH="/customerManagement.page" TARGET="page9"
+   TITLE="edit" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page9"
+  PATH="/customerManagement.page" SHAPE="240,4609,0,0" SUBTYPE="other"
+  TITLE="customerManagement.page" TYPE="page"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#contactUs"
+  NAME="action20" PATH="/contactUs" SHAPE="32,5009,0,0"
+  SUBTYPE="parameter" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" NAME="action20"
+   PATH="/contactUs.page" TARGET="page8" TITLE="parameter" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page8"
+  PATH="/contactUs.page" SHAPE="240,5026,0,0" SUBTYPE="other"
+  TITLE="contactUs.page" TYPE="page"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="localeAction"
+  NAME="forward1" PATH="/localeAction.do" SHAPE="32,3441,0,0"
+  TARGET="action7" TITLE="localeAction" TYPE="forward"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="login" NAME="forward11"
+  PATH="/login.do" SHAPE="32,129,0,0" TARGET="action29" TITLE="login" TYPE="forward"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#groupManagement"
+  NAME="action21" PATH="/groupManagement" SHAPE="32,4353,0,0"
+  TITLE="groupManagement" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="view"
+   NAME="forward0" PATH="/groupManagement.page" TARGET="page6"
+   TITLE="view" TYPE="forward"/>
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="add"
+   NAME="forward1" PATH="/groupManagement.page" TARGET="page6"
+   TITLE="add" TYPE="forward"/>
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="edit"
+   NAME="forward2" PATH="/groupManagement.page" TARGET="page6"
+   TITLE="edit" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#activitySearch"
+  NAME="action24" PATH="/activitySearch" SHAPE="32,5681,0,0" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="success"
+   NAME="forward0" PATH="/activitySearch.page" TARGET="page11"
+   TITLE="success" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#activitySearchAction"
+  NAME="action25" PATH="/activitySearchAction" SHAPE="32,6049,0,0"
+  TITLE="activitySearchForm" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="success"
+   NAME="forward0" PATH="/activitySearch.page" TARGET="page11"
+   TITLE="success" TYPE="forward"/>
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="failure"
+   NAME="forward1" PATH="/activitySearch.do" TARGET="action24"
+   TITLE="failure" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page11"
+  PATH="/activitySearch.page" SHAPE="240,5681,0,0" SUBTYPE="other"
+  TITLE="activitySearch.page" TYPE="page"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#aggregateActivityLog"
+  NAME="action23" PATH="/aggregateActivityLog" SHAPE="32,6497,0,0" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="success"
+   NAME="forward0" PATH="/aggregateActivityLog.page" TARGET="page10"
+   TITLE="success" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page10"
+  PATH="/aggregateActivityLog.page" SHAPE="256,6514,0,0" SUBTYPE="other"
+  TITLE="aggregateActivityLog.page" TYPE="page"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#aggregateActivitySearch"
+  NAME="action26" PATH="/aggregateActivitySearch" SHAPE="32,6609,0,0"
+  TITLE="activitySearchForm" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="success"
+   NAME="forward0" PATH="/aggregateActivityLog.page" TARGET="page10"
+   TITLE="success" TYPE="forward"/>
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="failure"
+   NAME="forward1" PATH="/aggregateActivityLog.do" TARGET="action23"
+   TITLE="failure" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem"
+  ID="#blackListTransReportAction" NAME="action33"
+  PATH="/blackListTransReportAction" SHAPE="32,385,0,0"
+  TITLE="blackListTransReportAction" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="searchPan"
+   NAME="forward2" PATH="/blackListTransReport.page" TARGET="page12"
+   TITLE="searchPan" TYPE="forward"/>
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="success"
+   NAME="forward0" PATH="/blackListTransReport.page" TARGET="page12"
+   TITLE="success" TYPE="forward"/>
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="cancel"
+   NAME="forward1" PATH="/blackListManagement.do" TARGET="action16"
+   TITLE="cancel" TYPE="forward"/>
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="failure"
+   NAME="forward3" PATH="/blackListTransReport.page" TARGET="page12"
+   TITLE="failure" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem"
+  ID="#blackListTransReportForward" NAME="action34"
+  PATH="/blackListTransReportForward" SHAPE="32,7537,0,0" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="success"
+   NAME="forward0" PATH="/blackListTransReport.page" TARGET="page12"
+   TITLE="success" TYPE="forward"/>
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="failure"
+   NAME="forward1" PATH="/blackListTransReport.page" TARGET="page12"
+   TITLE="failure" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#blackListManagement"
+  NAME="action16" PATH="/blackListManagement" SHAPE="32,7985,0,0"
+  TITLE="blackListManagement" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="add"
+   NAME="forward0" PATH="/blackList.page" TARGET="page13" TITLE="add" TYPE="forward"/>
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="edit"
+   NAME="forward2" PATH="/blackList.page" TARGET="page13" TITLE="edit" TYPE="forward"/>
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="delete"
+   NAME="forward3" PATH="/blackList.page" TARGET="page13" TITLE="delete" TYPE="forward"/>
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput"
+   ID="cancelOperation" NAME="forward4" PATH="/blackList.page"
+   TARGET="page13" TITLE="cancelOperation" TYPE="forward"/>
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput"
+   ID="searchSuccess" NAME="forward5" PATH="/blackList.page"
+   TARGET="page13" TITLE="searchSuccess" TYPE="forward"/>
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="searchPan"
+   NAME="forward6" PATH="/blackList.page" TARGET="page13"
+   TITLE="searchPan" TYPE="forward"/>
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="failure"
+   NAME="forward7" PATH="/blackList.page" TARGET="page13"
+   TITLE="failure" TYPE="forward"/>
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="limits"
+   NAME="forward8" PATH="/cardLimitation.page" TARGET="page14"
+   TITLE="limits" TYPE="forward"/>
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="operationOk"
+   NAME="forward1" PATH="/blackList.page" TARGET="page13"
+   TITLE="operationOk" TYPE="forward"/>
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput"
+   ID="transactions" NAME="forward9"
+   PATH="/blackListTransReportForward.do" TARGET="action34"
+   TITLE="transactions" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page12"
+  PATH="/blackListTransReport.page" SHAPE="240,7537,0,0" SUBTYPE="other"
+  TITLE="blackListTransReport.page" TYPE="page"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page13"
+  PATH="/blackList.page" SHAPE="240,7985,0,0" SUBTYPE="other"
+  TITLE="blackList.page" TYPE="page"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem"
+  ID="#blackListManagementForward" NAME="action27"
+  PATH="/blackListManagementForward" SHAPE="32,8689,0,0" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="success"
+   NAME="forward0" PATH="/blackList.page" TARGET="page13"
+   TITLE="success" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page14"
+  PATH="/cardLimitation.page" SHAPE="240,8097,0,0" SUBTYPE="other"
+  TITLE="cardLimitation.page" TYPE="page"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#cardLimitationAction"
+  NAME="action28" PATH="/cardLimitationAction" SHAPE="32,8801,0,0"
+  TITLE="cardLimitationForm" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="success"
+   NAME="forward0" PATH="/cardLimitation.page" TARGET="page14"
+   TITLE="success" TYPE="forward"/>
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="failure"
+   NAME="forward1" PATH="/cardLimitation.page" TARGET="page14"
+   TITLE="failure" TYPE="forward"/>
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="cancel"
+   NAME="forward2" PATH="/blackListManagement.do" TARGET="action16"
+   TITLE="cancel" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#print" NAME="action30"
+  PATH="/print" SHAPE="32,9361,0,0" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput"
+   ID="blackListTransReportPrint" NAME="forward0"
+   PATH="/blackListTransReportPrint.jsp" TARGET="page15"
+   TITLE="blackListTransReportPrint" TYPE="forward"/>
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput"
+   ID="blackListPrint" NAME="forward1"
+   PATH="/blackListManagementPrint.jsp" TARGET="page17"
+   TITLE="blackListPrint" TYPE="forward"/>
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput"
+   ID="monitorTransactionsPrint" NAME="forward2"
+   PATH="/monitorTransactionsPrint.jsp" TARGET="page18"
+   TITLE="monitorTransactionsPrint" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page15"
+  PATH="/blackListTransReportPrint.jsp" SHAPE="240,9361,0,0"
+  SUBTYPE="jsp" TITLE="blackListTransReportPrint.jsp" TYPE="page"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#monitorTrans"
+  NAME="action31" PATH="/monitorTrans" SHAPE="32,10001,0,0" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="success"
+   NAME="forward0" PATH="/monitorTransactions.page" TARGET="page16"
+   TITLE="success" TYPE="forward"/>
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="failure"
+   NAME="forward1" PATH="/monitorTransactions.page" TARGET="page16"
+   TITLE="failure" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page16"
+  PATH="/monitorTransactions.page" SHAPE="240,10018,0,0" SUBTYPE="other"
+  TITLE="monitorTransactions.page" TYPE="page"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" ID="#blackListMonitoring"
+  NAME="action32" PATH="/blackListMonitoring" SHAPE="32,8689,0,0"
+  TITLE="monitorTransForm" TYPE="action">
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput"
+   ID="confirmRefreshIntervalInSec" NAME="forward0"
+   PATH="/monitorTransactions.page" TARGET="page16"
+   TITLE="confirmRefreshIntervalInSec" TYPE="forward"/>
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput"
+   ID="confirmAlertInfo" NAME="forward2"
+   PATH="/monitorTransactions.page" TARGET="page16"
+   TITLE="confirmAlertInfo" TYPE="forward"/>
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="refresh"
+   NAME="forward1" PATH="/monitorTransactions.page" TARGET="page16"
+   TITLE="refresh" TYPE="forward"/>
+  <PROCESS-ITEM-OUTPUT ENTITY="StrutsProcessItemOutput" ID="failure"
+   NAME="forward3" PATH="/monitorTransactions.page" TARGET="page16"
+   TITLE="failure" TYPE="forward"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page17"
+  PATH="/blackListManagementPrint.jsp" SHAPE="240,9473,0,0"
+  SUBTYPE="jsp" TITLE="blackListManagementPrint.jsp" TYPE="page"/>
+ <PROCESS-ITEM ENTITY="StrutsProcessItem" NAME="page18"
+  PATH="/monitorTransactionsPrint.jsp" SHAPE="448,9361,0,0"
+  SUBTYPE="jsp" TITLE="monitorTransactionsPrint.jsp" TYPE="page"/>
+</PROCESS>
